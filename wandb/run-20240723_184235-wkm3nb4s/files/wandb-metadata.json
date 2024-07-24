@@ -1,0 +1,45 @@
+{
+    "os": "macOS-10.16-x86_64-i386-64bit",
+    "python": "3.9.1",
+    "heartbeatAt": "2024-07-24T01:42:36.233955",
+    "startedAt": "2024-07-24T01:42:35.575447",
+    "docker": null,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "/Users/ravivayuvegula/PycharmProjects/mistral_finetune_cma/multi_llm_responses.py",
+    "codePathLocal": "multi_llm_responses.py",
+    "codePath": "multi_llm_responses.py",
+    "git": {
+        "remote": "https://github.com/vayuvegula/mistral_finetuning_cma.git",
+        "commit": "bb4ab88976e5bae553deea4ec9657f7c99da9a1c"
+    },
+    "email": "vayuvegula@gmail.com",
+    "root": "/Users/ravivayuvegula/PycharmProjects/mistral_finetune_cma",
+    "host": "ravis-MacBook-Air.local",
+    "username": "ravivayuvegula",
+    "executable": "/Users/ravivayuvegula/PycharmProjects/venvs/py3/bin/python3.9",
+    "cpu_count": 8,
+    "cpu_count_logical": 8,
+    "cpu_freq": {
+        "current": 2400,
+        "min": 2400,
+        "max": 2400
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 2400,
+            "min": 2400,
+            "max": 2400
+        }
+    ],
+    "disk": {
+        "/": {
+            "total": 228.27386474609375,
+            "used": 209.4512481689453
+        }
+    },
+    "memory": {
+        "total": 16.0
+    }
+}

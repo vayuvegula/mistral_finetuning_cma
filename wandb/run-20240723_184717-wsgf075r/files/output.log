@@ -1,0 +1,5 @@
+Input file 'cma_files/PoorCharliesAlmanack_chptr_4_talk_11_2.txt' read successfully. Content length: 67224 characters
+Generating questions using openai gpt-4o-mini...
+Parsed 8 question-answer pairs
+Analysis complete. 8 new question-answer pairs saved to 'output_openai_gpt-4o-mini_PoorCharliesAlmanack_chptr_4_talk_11_2.txt_20240723_184738.jsonl'
+File cma_files/PoorCharliesAlmanack_chptr_4_talk_11_1.txt has already been processed. Skipping.

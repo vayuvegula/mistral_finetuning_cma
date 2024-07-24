@@ -1,0 +1,4 @@
+Input file 'cma_files/PoorCharliesAlmanack_chptr_4_talk_11_1.txt' read successfully. Content length: 88906 characters
+Generating questions using openai gpt-4o-mini...
+Parsed 0 question-answer pairs
+No formatted data to write. Exiting.
