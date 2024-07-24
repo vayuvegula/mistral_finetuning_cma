@@ -1,0 +1,5 @@
+Input file 'PoorCharliesAlmanack.txt' read successfully. Content length: 719162 characters
+Making API call 1 of 1
+Generating 10 questions using openai gpt-4o-mini...
+An error occurred while generating questions: 'Completions' object is not callable
+No formatted data to write. Exiting.
