@@ -73,7 +73,7 @@ def parse_and_format_response(response_text):
     return formatted_data
 
 def main():
-    input_file = "PoorCharliesAlmanack.txt"
+    input_file = "cma_files/PoorCharliesAlmanack.txt"
     output_file = "PoorCharliesAlmanack_1.jsonl"
 
     input_text = read_file(input_file)

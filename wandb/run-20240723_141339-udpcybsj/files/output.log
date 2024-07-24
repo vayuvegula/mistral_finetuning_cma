@@ -1,0 +1,5 @@
+Input file 'PoorCharliesAlmanack.txt' read successfully. Content length: 719162 characters
+Making API call 1 of 1
+Generating 10 questions using openai gpt-4o-mini...
+An error occurred while generating questions: Error code: 400 - {'error': {'message': "This model's maximum context length is 128000 tokens. However, your messages resulted in 148017 tokens. Please reduce the length of the messages.", 'type': 'invalid_request_error', 'param': 'messages', 'code': 'context_length_exceeded'}}
+No formatted data to write. Exiting.

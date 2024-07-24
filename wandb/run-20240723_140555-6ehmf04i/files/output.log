@@ -1,0 +1,5 @@
+Input file 'PoorCharliesAlmanack.txt' read successfully. Content length: 719162 characters
+Making API call 1 of 1
+Generating 10 questions using anthropic claude-3-sonnet-20240229...
+An error occurred while generating questions: Error code: 429 - {'type': 'error', 'error': {'type': 'rate_limit_error', 'message': 'Number of request tokens has exceeded your per-minute rate limit (https://docs.anthropic.com/en/api/rate-limits); see the response headers for current usage. Please reduce the prompt length or the maximum tokens requested, or try again later. You may also contact sales at https://www.anthropic.com/contact-sales to discuss your options for a rate limit increase.'}}
+No formatted data to write. Exiting.

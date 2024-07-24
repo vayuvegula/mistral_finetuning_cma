@@ -1,0 +1,198 @@
+2024-07-23 14:07:24,988 INFO    StreamThr :91114 [internal.py:wandb_internal():85] W&B internal server running at pid: 91114, started at: 2024-07-23 14:07:24.987904
+2024-07-23 14:07:24,989 DEBUG   HandlerThread:91114 [handler.py:handle_request():158] handle_request: status
+2024-07-23 14:07:24,992 INFO    WriterThread:91114 [datastore.py:open_for_write():87] open: /Users/ravivayuvegula/PycharmProjects/mistral_finetune_cma/wandb/run-20240723_140724-fb3hweb1/run-fb3hweb1.wandb
+2024-07-23 14:07:24,992 DEBUG   SenderThread:91114 [sender.py:send():379] send: header
+2024-07-23 14:07:25,038 DEBUG   SenderThread:91114 [sender.py:send():379] send: run
+2024-07-23 14:07:25,387 INFO    SenderThread:91114 [dir_watcher.py:__init__():211] watching files in: /Users/ravivayuvegula/PycharmProjects/mistral_finetune_cma/wandb/run-20240723_140724-fb3hweb1/files
+2024-07-23 14:07:25,388 INFO    SenderThread:91114 [sender.py:_start_run_threads():1188] run started: fb3hweb1 with start time 1721768844.989007
+2024-07-23 14:07:25,410 DEBUG   HandlerThread:91114 [handler.py:handle_request():158] handle_request: check_version
+2024-07-23 14:07:25,410 DEBUG   SenderThread:91114 [sender.py:send_request():406] send_request: check_version
+2024-07-23 14:07:25,622 DEBUG   HandlerThread:91114 [handler.py:handle_request():158] handle_request: run_start
+2024-07-23 14:07:25,654 DEBUG   HandlerThread:91114 [system_info.py:__init__():26] System info init
+2024-07-23 14:07:25,654 DEBUG   HandlerThread:91114 [system_info.py:__init__():41] System info init done
+2024-07-23 14:07:25,654 INFO    HandlerThread:91114 [system_monitor.py:start():194] Starting system monitor
+2024-07-23 14:07:25,655 INFO    SystemMonitor:91114 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-07-23 14:07:25,655 INFO    HandlerThread:91114 [system_monitor.py:probe():214] Collecting system info
+2024-07-23 14:07:25,656 INFO    SystemMonitor:91114 [interfaces.py:start():188] Started cpu monitoring
+2024-07-23 14:07:25,657 DEBUG   HandlerThread:91114 [system_info.py:probe():152] Probing system
+2024-07-23 14:07:25,657 INFO    SystemMonitor:91114 [interfaces.py:start():188] Started disk monitoring
+2024-07-23 14:07:25,659 INFO    SystemMonitor:91114 [interfaces.py:start():188] Started memory monitoring
+2024-07-23 14:07:25,660 INFO    SystemMonitor:91114 [interfaces.py:start():188] Started network monitoring
+2024-07-23 14:07:25,679 DEBUG   HandlerThread:91114 [system_info.py:_probe_git():137] Probing git
+2024-07-23 14:07:25,735 DEBUG   HandlerThread:91114 [system_info.py:_probe_git():145] Probing git done
+2024-07-23 14:07:25,735 DEBUG   HandlerThread:91114 [system_info.py:probe():200] Probing system done
+2024-07-23 14:07:25,736 DEBUG   HandlerThread:91114 [system_monitor.py:probe():223] {'os': 'macOS-10.16-x86_64-i386-64bit', 'python': '3.9.1', 'heartbeatAt': '2024-07-23T21:07:25.659019', 'startedAt': '2024-07-23T21:07:24.983290', 'docker': None, 'cuda': None, 'args': (), 'state': 'running', 'program': '/Users/ravivayuvegula/PycharmProjects/mistral_finetune_cma/multi_llm_responses.py', 'codePathLocal': 'multi_llm_responses.py', 'codePath': 'multi_llm_responses.py', 'git': {'remote': 'https://github.com/vayuvegula/mistral_finetuning_cma.git', 'commit': '5df48ed9e76f28bc308fae1a5759dd9e102d7a87'}, 'email': 'vayuvegula@gmail.com', 'root': '/Users/ravivayuvegula/PycharmProjects/mistral_finetune_cma', 'host': 'ravis-MacBook-Air.local', 'username': 'ravivayuvegula', 'executable': '/Users/ravivayuvegula/PycharmProjects/venvs/py3/bin/python3.9', 'cpu_count': 8, 'cpu_count_logical': 8, 'cpu_freq': {'current': 2400, 'min': 2400, 'max': 2400}, 'cpu_freq_per_core': [{'current': 2400, 'min': 2400, 'max': 2400}], 'disk': {'/': {'total': 228.27386474609375, 'used': 209.32210159301758}}, 'memory': {'total': 16.0}}
+2024-07-23 14:07:25,736 INFO    HandlerThread:91114 [system_monitor.py:probe():224] Finished collecting system info
+2024-07-23 14:07:25,736 INFO    HandlerThread:91114 [system_monitor.py:probe():227] Publishing system info
+2024-07-23 14:07:25,736 INFO    HandlerThread:91114 [system_monitor.py:probe():229] Finished publishing system info
+2024-07-23 14:07:25,748 DEBUG   SenderThread:91114 [sender.py:send():379] send: files
+2024-07-23 14:07:25,748 INFO    SenderThread:91114 [sender.py:_save_file():1454] saving file wandb-metadata.json with policy now
+2024-07-23 14:07:26,161 INFO    wandb-upload_0:91114 [upload_job.py:push():130] Uploaded file /var/folders/34/fkfp074s61qdsdhxjxh6jq5w0000gn/T/tmpuueo1kuswandb/zr4bfdss-wandb-metadata.json
+2024-07-23 14:07:26,188 DEBUG   HandlerThread:91114 [handler.py:handle_request():158] handle_request: python_packages
+2024-07-23 14:07:26,188 DEBUG   SenderThread:91114 [sender.py:send_request():406] send_request: python_packages
+2024-07-23 14:07:26,189 DEBUG   SenderThread:91114 [sender.py:send():379] send: telemetry
+2024-07-23 14:07:26,189 DEBUG   HandlerThread:91114 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-23 14:07:26,190 DEBUG   HandlerThread:91114 [handler.py:handle_request():158] handle_request: stop_status
+2024-07-23 14:07:26,190 DEBUG   SenderThread:91114 [sender.py:send_request():406] send_request: stop_status
+2024-07-23 14:07:26,207 DEBUG   HandlerThread:91114 [handler.py:handle_request():158] handle_request: partial_history
+2024-07-23 14:07:26,317 DEBUG   SenderThread:91114 [sender.py:send():379] send: history
+2024-07-23 14:07:26,317 DEBUG   SenderThread:91114 [sender.py:send_request():406] send_request: summary_record
+2024-07-23 14:07:26,318 INFO    SenderThread:91114 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-07-23 14:07:26,399 INFO    Thread-12 :91114 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/ravivayuvegula/PycharmProjects/mistral_finetune_cma/wandb/run-20240723_140724-fb3hweb1/files/wandb-metadata.json
+2024-07-23 14:07:26,399 INFO    Thread-12 :91114 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/ravivayuvegula/PycharmProjects/mistral_finetune_cma/wandb/run-20240723_140724-fb3hweb1/files/output.log
+2024-07-23 14:07:26,399 INFO    Thread-12 :91114 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/ravivayuvegula/PycharmProjects/mistral_finetune_cma/wandb/run-20240723_140724-fb3hweb1/files/wandb-summary.json
+2024-07-23 14:07:26,400 INFO    Thread-12 :91114 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/ravivayuvegula/PycharmProjects/mistral_finetune_cma/wandb/run-20240723_140724-fb3hweb1/files/requirements.txt
+2024-07-23 14:07:27,195 DEBUG   HandlerThread:91114 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-23 14:07:28,200 DEBUG   HandlerThread:91114 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-23 14:07:28,400 INFO    Thread-12 :91114 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/ravivayuvegula/PycharmProjects/mistral_finetune_cma/wandb/run-20240723_140724-fb3hweb1/files/output.log
+2024-07-23 14:07:29,204 DEBUG   HandlerThread:91114 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-23 14:07:30,208 DEBUG   HandlerThread:91114 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-23 14:07:30,342 DEBUG   HandlerThread:91114 [handler.py:handle_request():158] handle_request: status_report
+2024-07-23 14:07:31,208 DEBUG   HandlerThread:91114 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-23 14:07:32,210 DEBUG   HandlerThread:91114 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-23 14:07:33,214 DEBUG   HandlerThread:91114 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-23 14:07:34,218 DEBUG   HandlerThread:91114 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-23 14:07:35,223 DEBUG   HandlerThread:91114 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-23 14:07:36,201 DEBUG   HandlerThread:91114 [handler.py:handle_request():158] handle_request: status_report
+2024-07-23 14:07:36,228 DEBUG   HandlerThread:91114 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-23 14:07:37,233 DEBUG   HandlerThread:91114 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-23 14:07:38,215 DEBUG   SenderThread:91114 [sender.py:send():379] send: exit
+2024-07-23 14:07:38,216 INFO    SenderThread:91114 [sender.py:send_exit():586] handling exit code: 0
+2024-07-23 14:07:38,216 INFO    SenderThread:91114 [sender.py:send_exit():588] handling runtime: 12
+2024-07-23 14:07:38,220 INFO    SenderThread:91114 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-07-23 14:07:38,221 INFO    SenderThread:91114 [sender.py:send_exit():594] send defer
+2024-07-23 14:07:38,222 DEBUG   HandlerThread:91114 [handler.py:handle_request():158] handle_request: defer
+2024-07-23 14:07:38,222 INFO    HandlerThread:91114 [handler.py:handle_request_defer():184] handle defer: 0
+2024-07-23 14:07:38,223 DEBUG   SenderThread:91114 [sender.py:send_request():406] send_request: defer
+2024-07-23 14:07:38,223 INFO    SenderThread:91114 [sender.py:send_request_defer():610] handle sender defer: 0
+2024-07-23 14:07:38,223 INFO    SenderThread:91114 [sender.py:transition_state():614] send defer: 1
+2024-07-23 14:07:38,223 DEBUG   HandlerThread:91114 [handler.py:handle_request():158] handle_request: defer
+2024-07-23 14:07:38,223 INFO    HandlerThread:91114 [handler.py:handle_request_defer():184] handle defer: 1
+2024-07-23 14:07:38,223 DEBUG   SenderThread:91114 [sender.py:send_request():406] send_request: defer
+2024-07-23 14:07:38,224 INFO    SenderThread:91114 [sender.py:send_request_defer():610] handle sender defer: 1
+2024-07-23 14:07:38,224 INFO    SenderThread:91114 [sender.py:transition_state():614] send defer: 2
+2024-07-23 14:07:38,224 DEBUG   HandlerThread:91114 [handler.py:handle_request():158] handle_request: defer
+2024-07-23 14:07:38,224 INFO    HandlerThread:91114 [handler.py:handle_request_defer():184] handle defer: 2
+2024-07-23 14:07:38,224 INFO    HandlerThread:91114 [system_monitor.py:finish():203] Stopping system monitor
+2024-07-23 14:07:38,225 INFO    HandlerThread:91114 [interfaces.py:finish():200] Joined cpu monitor
+2024-07-23 14:07:38,225 DEBUG   SystemMonitor:91114 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-07-23 14:07:38,225 DEBUG   SystemMonitor:91114 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-07-23 14:07:38,225 DEBUG   SystemMonitor:91114 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-07-23 14:07:38,226 INFO    HandlerThread:91114 [interfaces.py:finish():200] Joined disk monitor
+2024-07-23 14:07:38,226 INFO    HandlerThread:91114 [interfaces.py:finish():200] Joined memory monitor
+2024-07-23 14:07:38,227 INFO    HandlerThread:91114 [interfaces.py:finish():200] Joined network monitor
+2024-07-23 14:07:38,227 DEBUG   SenderThread:91114 [sender.py:send_request():406] send_request: defer
+2024-07-23 14:07:38,227 INFO    SenderThread:91114 [sender.py:send_request_defer():610] handle sender defer: 2
+2024-07-23 14:07:38,228 INFO    SenderThread:91114 [sender.py:transition_state():614] send defer: 3
+2024-07-23 14:07:38,228 DEBUG   SenderThread:91114 [sender.py:send():379] send: stats
+2024-07-23 14:07:38,228 DEBUG   HandlerThread:91114 [handler.py:handle_request():158] handle_request: defer
+2024-07-23 14:07:38,228 INFO    HandlerThread:91114 [handler.py:handle_request_defer():184] handle defer: 3
+2024-07-23 14:07:38,228 DEBUG   SenderThread:91114 [sender.py:send_request():406] send_request: defer
+2024-07-23 14:07:38,229 INFO    SenderThread:91114 [sender.py:send_request_defer():610] handle sender defer: 3
+2024-07-23 14:07:38,229 INFO    SenderThread:91114 [sender.py:transition_state():614] send defer: 4
+2024-07-23 14:07:38,229 DEBUG   HandlerThread:91114 [handler.py:handle_request():158] handle_request: defer
+2024-07-23 14:07:38,229 INFO    HandlerThread:91114 [handler.py:handle_request_defer():184] handle defer: 4
+2024-07-23 14:07:38,229 DEBUG   SenderThread:91114 [sender.py:send_request():406] send_request: defer
+2024-07-23 14:07:38,229 INFO    SenderThread:91114 [sender.py:send_request_defer():610] handle sender defer: 4
+2024-07-23 14:07:38,229 INFO    SenderThread:91114 [sender.py:transition_state():614] send defer: 5
+2024-07-23 14:07:38,230 DEBUG   HandlerThread:91114 [handler.py:handle_request():158] handle_request: defer
+2024-07-23 14:07:38,230 INFO    HandlerThread:91114 [handler.py:handle_request_defer():184] handle defer: 5
+2024-07-23 14:07:38,230 DEBUG   SenderThread:91114 [sender.py:send():379] send: summary
+2024-07-23 14:07:38,231 INFO    SenderThread:91114 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-07-23 14:07:38,231 DEBUG   SenderThread:91114 [sender.py:send_request():406] send_request: defer
+2024-07-23 14:07:38,231 INFO    SenderThread:91114 [sender.py:send_request_defer():610] handle sender defer: 5
+2024-07-23 14:07:38,231 INFO    SenderThread:91114 [sender.py:transition_state():614] send defer: 6
+2024-07-23 14:07:38,231 DEBUG   HandlerThread:91114 [handler.py:handle_request():158] handle_request: defer
+2024-07-23 14:07:38,231 INFO    HandlerThread:91114 [handler.py:handle_request_defer():184] handle defer: 6
+2024-07-23 14:07:38,232 DEBUG   SenderThread:91114 [sender.py:send_request():406] send_request: defer
+2024-07-23 14:07:38,232 INFO    SenderThread:91114 [sender.py:send_request_defer():610] handle sender defer: 6
+2024-07-23 14:07:38,238 DEBUG   HandlerThread:91114 [handler.py:handle_request():158] handle_request: status_report
+2024-07-23 14:07:38,357 INFO    SenderThread:91114 [sender.py:transition_state():614] send defer: 7
+2024-07-23 14:07:38,357 DEBUG   HandlerThread:91114 [handler.py:handle_request():158] handle_request: defer
+2024-07-23 14:07:38,357 INFO    HandlerThread:91114 [handler.py:handle_request_defer():184] handle defer: 7
+2024-07-23 14:07:38,358 DEBUG   SenderThread:91114 [sender.py:send_request():406] send_request: defer
+2024-07-23 14:07:38,358 INFO    SenderThread:91114 [sender.py:send_request_defer():610] handle sender defer: 7
+2024-07-23 14:07:38,443 INFO    Thread-12 :91114 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/ravivayuvegula/PycharmProjects/mistral_finetune_cma/wandb/run-20240723_140724-fb3hweb1/files/config.yaml
+2024-07-23 14:07:38,443 INFO    Thread-12 :91114 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/ravivayuvegula/PycharmProjects/mistral_finetune_cma/wandb/run-20240723_140724-fb3hweb1/files/wandb-summary.json
+2024-07-23 14:07:39,222 DEBUG   HandlerThread:91114 [handler.py:handle_request():158] handle_request: poll_exit
+2024-07-23 14:07:40,366 INFO    SenderThread:91114 [sender.py:transition_state():614] send defer: 8
+2024-07-23 14:07:40,367 DEBUG   SenderThread:91114 [sender.py:send_request():406] send_request: poll_exit
+2024-07-23 14:07:40,367 DEBUG   HandlerThread:91114 [handler.py:handle_request():158] handle_request: defer
+2024-07-23 14:07:40,368 INFO    HandlerThread:91114 [handler.py:handle_request_defer():184] handle defer: 8
+2024-07-23 14:07:40,369 DEBUG   SenderThread:91114 [sender.py:send_request():406] send_request: defer
+2024-07-23 14:07:40,369 INFO    SenderThread:91114 [sender.py:send_request_defer():610] handle sender defer: 8
+2024-07-23 14:07:40,369 INFO    SenderThread:91114 [job_builder.py:build():440] Attempting to build job artifact
+2024-07-23 14:07:40,371 INFO    SenderThread:91114 [job_builder.py:_get_source_type():569] is repo sourced job
+2024-07-23 14:07:40,451 INFO    Thread-12 :91114 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/ravivayuvegula/PycharmProjects/mistral_finetune_cma/wandb/run-20240723_140724-fb3hweb1/files/output.log
+2024-07-23 14:07:40,678 INFO    SenderThread:91114 [job_builder.py:build():545] adding wandb-job metadata file
+2024-07-23 14:07:40,680 INFO    SenderThread:91114 [sender.py:transition_state():614] send defer: 9
+2024-07-23 14:07:40,681 DEBUG   HandlerThread:91114 [handler.py:handle_request():158] handle_request: defer
+2024-07-23 14:07:40,681 DEBUG   SenderThread:91114 [sender.py:send():379] send: artifact
+2024-07-23 14:07:40,681 INFO    HandlerThread:91114 [handler.py:handle_request_defer():184] handle defer: 9
+2024-07-23 14:07:41,225 INFO    SenderThread:91114 [sender.py:send_artifact():1537] sent artifact job-https___github.com_vayuvegula_mistral_finetuning_cma.git_multi_llm_responses.py - {'id': 'QXJ0aWZhY3Q6MTAyNjg4NzIwMA==', 'state': 'COMMITTED', 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjMxMzM3Mjk1MA==', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6MTAyNjg4NzIwMA==', 'versionIndex': 0}}}
+2024-07-23 14:07:41,226 DEBUG   SenderThread:91114 [sender.py:send_request():406] send_request: defer
+2024-07-23 14:07:41,227 INFO    SenderThread:91114 [sender.py:send_request_defer():610] handle sender defer: 9
+2024-07-23 14:07:41,227 INFO    SenderThread:91114 [dir_watcher.py:finish():358] shutting down directory watcher
+2024-07-23 14:07:41,228 DEBUG   HandlerThread:91114 [handler.py:handle_request():158] handle_request: poll_exit
+2024-07-23 14:07:41,459 INFO    SenderThread:91114 [dir_watcher.py:finish():388] scan: /Users/ravivayuvegula/PycharmProjects/mistral_finetune_cma/wandb/run-20240723_140724-fb3hweb1/files
+2024-07-23 14:07:41,459 INFO    SenderThread:91114 [dir_watcher.py:finish():402] scan save: /Users/ravivayuvegula/PycharmProjects/mistral_finetune_cma/wandb/run-20240723_140724-fb3hweb1/files/requirements.txt requirements.txt
+2024-07-23 14:07:41,460 INFO    SenderThread:91114 [dir_watcher.py:finish():402] scan save: /Users/ravivayuvegula/PycharmProjects/mistral_finetune_cma/wandb/run-20240723_140724-fb3hweb1/files/output.log output.log
+2024-07-23 14:07:41,465 INFO    SenderThread:91114 [dir_watcher.py:finish():402] scan save: /Users/ravivayuvegula/PycharmProjects/mistral_finetune_cma/wandb/run-20240723_140724-fb3hweb1/files/config.yaml config.yaml
+2024-07-23 14:07:41,470 INFO    SenderThread:91114 [dir_watcher.py:finish():402] scan save: /Users/ravivayuvegula/PycharmProjects/mistral_finetune_cma/wandb/run-20240723_140724-fb3hweb1/files/wandb-summary.json wandb-summary.json
+2024-07-23 14:07:41,475 INFO    SenderThread:91114 [dir_watcher.py:finish():402] scan save: /Users/ravivayuvegula/PycharmProjects/mistral_finetune_cma/wandb/run-20240723_140724-fb3hweb1/files/wandb-metadata.json wandb-metadata.json
+2024-07-23 14:07:41,476 INFO    SenderThread:91114 [sender.py:transition_state():614] send defer: 10
+2024-07-23 14:07:41,476 DEBUG   SenderThread:91114 [sender.py:send_request():406] send_request: poll_exit
+2024-07-23 14:07:41,477 DEBUG   HandlerThread:91114 [handler.py:handle_request():158] handle_request: defer
+2024-07-23 14:07:41,480 INFO    HandlerThread:91114 [handler.py:handle_request_defer():184] handle defer: 10
+2024-07-23 14:07:41,481 DEBUG   SenderThread:91114 [sender.py:send_request():406] send_request: defer
+2024-07-23 14:07:41,481 INFO    SenderThread:91114 [sender.py:send_request_defer():610] handle sender defer: 10
+2024-07-23 14:07:41,482 INFO    SenderThread:91114 [file_pusher.py:finish():169] shutting down file pusher
+2024-07-23 14:07:41,782 INFO    wandb-upload_0:91114 [upload_job.py:push():130] Uploaded file /Users/ravivayuvegula/PycharmProjects/mistral_finetune_cma/wandb/run-20240723_140724-fb3hweb1/files/requirements.txt
+2024-07-23 14:07:41,903 INFO    wandb-upload_2:91114 [upload_job.py:push():130] Uploaded file /Users/ravivayuvegula/PycharmProjects/mistral_finetune_cma/wandb/run-20240723_140724-fb3hweb1/files/config.yaml
+2024-07-23 14:07:41,903 INFO    wandb-upload_3:91114 [upload_job.py:push():130] Uploaded file /Users/ravivayuvegula/PycharmProjects/mistral_finetune_cma/wandb/run-20240723_140724-fb3hweb1/files/wandb-summary.json
+2024-07-23 14:07:41,906 INFO    wandb-upload_1:91114 [upload_job.py:push():130] Uploaded file /Users/ravivayuvegula/PycharmProjects/mistral_finetune_cma/wandb/run-20240723_140724-fb3hweb1/files/output.log
+2024-07-23 14:07:42,112 INFO    Thread-11 :91114 [sender.py:transition_state():614] send defer: 11
+2024-07-23 14:07:42,113 DEBUG   HandlerThread:91114 [handler.py:handle_request():158] handle_request: defer
+2024-07-23 14:07:42,114 INFO    HandlerThread:91114 [handler.py:handle_request_defer():184] handle defer: 11
+2024-07-23 14:07:42,115 DEBUG   SenderThread:91114 [sender.py:send_request():406] send_request: defer
+2024-07-23 14:07:42,115 INFO    SenderThread:91114 [sender.py:send_request_defer():610] handle sender defer: 11
+2024-07-23 14:07:42,115 INFO    SenderThread:91114 [file_pusher.py:join():175] waiting for file pusher
+2024-07-23 14:07:42,116 INFO    SenderThread:91114 [sender.py:transition_state():614] send defer: 12
+2024-07-23 14:07:42,116 DEBUG   HandlerThread:91114 [handler.py:handle_request():158] handle_request: defer
+2024-07-23 14:07:42,116 INFO    HandlerThread:91114 [handler.py:handle_request_defer():184] handle defer: 12
+2024-07-23 14:07:42,117 DEBUG   SenderThread:91114 [sender.py:send_request():406] send_request: defer
+2024-07-23 14:07:42,117 INFO    SenderThread:91114 [sender.py:send_request_defer():610] handle sender defer: 12
+2024-07-23 14:07:42,117 INFO    SenderThread:91114 [file_stream.py:finish():601] file stream finish called
+2024-07-23 14:07:42,234 DEBUG   HandlerThread:91114 [handler.py:handle_request():158] handle_request: poll_exit
+2024-07-23 14:07:42,426 INFO    SenderThread:91114 [file_stream.py:finish():605] file stream finish is done
+2024-07-23 14:07:42,427 INFO    SenderThread:91114 [sender.py:transition_state():614] send defer: 13
+2024-07-23 14:07:42,427 DEBUG   SenderThread:91114 [sender.py:send_request():406] send_request: poll_exit
+2024-07-23 14:07:42,427 DEBUG   HandlerThread:91114 [handler.py:handle_request():158] handle_request: defer
+2024-07-23 14:07:42,428 INFO    HandlerThread:91114 [handler.py:handle_request_defer():184] handle defer: 13
+2024-07-23 14:07:42,429 DEBUG   SenderThread:91114 [sender.py:send_request():406] send_request: defer
+2024-07-23 14:07:42,429 INFO    SenderThread:91114 [sender.py:send_request_defer():610] handle sender defer: 13
+2024-07-23 14:07:42,429 INFO    SenderThread:91114 [sender.py:transition_state():614] send defer: 14
+2024-07-23 14:07:42,430 DEBUG   HandlerThread:91114 [handler.py:handle_request():158] handle_request: defer
+2024-07-23 14:07:42,430 DEBUG   SenderThread:91114 [sender.py:send():379] send: final
+2024-07-23 14:07:42,430 INFO    HandlerThread:91114 [handler.py:handle_request_defer():184] handle defer: 14
+2024-07-23 14:07:42,430 DEBUG   SenderThread:91114 [sender.py:send():379] send: footer
+2024-07-23 14:07:42,431 DEBUG   SenderThread:91114 [sender.py:send_request():406] send_request: defer
+2024-07-23 14:07:42,431 INFO    SenderThread:91114 [sender.py:send_request_defer():610] handle sender defer: 14
+2024-07-23 14:07:42,432 DEBUG   HandlerThread:91114 [handler.py:handle_request():158] handle_request: poll_exit
+2024-07-23 14:07:42,433 DEBUG   SenderThread:91114 [sender.py:send_request():406] send_request: poll_exit
+2024-07-23 14:07:42,434 DEBUG   HandlerThread:91114 [handler.py:handle_request():158] handle_request: server_info
+2024-07-23 14:07:42,434 DEBUG   SenderThread:91114 [sender.py:send_request():406] send_request: server_info
+2024-07-23 14:07:42,438 DEBUG   HandlerThread:91114 [handler.py:handle_request():158] handle_request: poll_exit
+2024-07-23 14:07:42,440 DEBUG   HandlerThread:91114 [handler.py:handle_request():158] handle_request: get_summary
+2024-07-23 14:07:42,441 DEBUG   HandlerThread:91114 [handler.py:handle_request():158] handle_request: sampled_history
+2024-07-23 14:07:42,442 DEBUG   HandlerThread:91114 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-23 14:07:42,517 DEBUG   SenderThread:91114 [sender.py:send_request():406] send_request: poll_exit
+2024-07-23 14:07:42,518 INFO    MainThread:91114 [wandb_run.py:_footer_history_summary_info():4016] rendering history
+2024-07-23 14:07:42,519 INFO    MainThread:91114 [wandb_run.py:_footer_history_summary_info():4048] rendering summary
+2024-07-23 14:07:42,520 INFO    MainThread:91114 [wandb_run.py:_footer_sync_info():3975] logging synced files
+2024-07-23 14:07:42,523 DEBUG   HandlerThread:91114 [handler.py:handle_request():158] handle_request: shutdown
+2024-07-23 14:07:42,524 INFO    HandlerThread:91114 [handler.py:finish():882] shutting down handler
+2024-07-23 14:07:43,444 INFO    WriterThread:91114 [datastore.py:close():296] close: /Users/ravivayuvegula/PycharmProjects/mistral_finetune_cma/wandb/run-20240723_140724-fb3hweb1/run-fb3hweb1.wandb
+2024-07-23 14:07:43,523 INFO    SenderThread:91114 [sender.py:finish():1615] shutting down sender
+2024-07-23 14:07:43,524 INFO    SenderThread:91114 [file_pusher.py:finish():169] shutting down file pusher
+2024-07-23 14:07:43,524 INFO    SenderThread:91114 [file_pusher.py:join():175] waiting for file pusher

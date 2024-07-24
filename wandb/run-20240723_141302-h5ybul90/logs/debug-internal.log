@@ -1,0 +1,158 @@
+2024-07-23 14:13:02,754 INFO    StreamThr :91248 [internal.py:wandb_internal():85] W&B internal server running at pid: 91248, started at: 2024-07-23 14:13:02.752557
+2024-07-23 14:13:02,756 DEBUG   HandlerThread:91248 [handler.py:handle_request():158] handle_request: status
+2024-07-23 14:13:02,760 INFO    WriterThread:91248 [datastore.py:open_for_write():87] open: /Users/ravivayuvegula/PycharmProjects/mistral_finetune_cma/wandb/run-20240723_141302-h5ybul90/run-h5ybul90.wandb
+2024-07-23 14:13:02,761 DEBUG   SenderThread:91248 [sender.py:send():379] send: header
+2024-07-23 14:13:02,812 DEBUG   SenderThread:91248 [sender.py:send():379] send: run
+2024-07-23 14:13:03,119 INFO    SenderThread:91248 [dir_watcher.py:__init__():211] watching files in: /Users/ravivayuvegula/PycharmProjects/mistral_finetune_cma/wandb/run-20240723_141302-h5ybul90/files
+2024-07-23 14:13:03,119 INFO    SenderThread:91248 [sender.py:_start_run_threads():1188] run started: h5ybul90 with start time 1721769182.753826
+2024-07-23 14:13:03,141 DEBUG   HandlerThread:91248 [handler.py:handle_request():158] handle_request: check_version
+2024-07-23 14:13:03,141 DEBUG   SenderThread:91248 [sender.py:send_request():406] send_request: check_version
+2024-07-23 14:13:03,403 DEBUG   HandlerThread:91248 [handler.py:handle_request():158] handle_request: run_start
+2024-07-23 14:13:03,434 DEBUG   HandlerThread:91248 [system_info.py:__init__():26] System info init
+2024-07-23 14:13:03,434 DEBUG   HandlerThread:91248 [system_info.py:__init__():41] System info init done
+2024-07-23 14:13:03,434 INFO    HandlerThread:91248 [system_monitor.py:start():194] Starting system monitor
+2024-07-23 14:13:03,435 INFO    SystemMonitor:91248 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-07-23 14:13:03,435 INFO    HandlerThread:91248 [system_monitor.py:probe():214] Collecting system info
+2024-07-23 14:13:03,435 DEBUG   HandlerThread:91248 [system_info.py:probe():152] Probing system
+2024-07-23 14:13:03,436 INFO    SystemMonitor:91248 [interfaces.py:start():188] Started cpu monitoring
+2024-07-23 14:13:03,438 INFO    SystemMonitor:91248 [interfaces.py:start():188] Started disk monitoring
+2024-07-23 14:13:03,439 INFO    SystemMonitor:91248 [interfaces.py:start():188] Started memory monitoring
+2024-07-23 14:13:03,440 INFO    SystemMonitor:91248 [interfaces.py:start():188] Started network monitoring
+2024-07-23 14:13:03,456 DEBUG   HandlerThread:91248 [system_info.py:_probe_git():137] Probing git
+2024-07-23 14:13:03,513 DEBUG   HandlerThread:91248 [system_info.py:_probe_git():145] Probing git done
+2024-07-23 14:13:03,513 DEBUG   HandlerThread:91248 [system_info.py:probe():200] Probing system done
+2024-07-23 14:13:03,513 DEBUG   HandlerThread:91248 [system_monitor.py:probe():223] {'os': 'macOS-10.16-x86_64-i386-64bit', 'python': '3.9.1', 'heartbeatAt': '2024-07-23T21:13:03.435898', 'startedAt': '2024-07-23T21:13:02.741054', 'docker': None, 'cuda': None, 'args': (), 'state': 'running', 'program': '/Users/ravivayuvegula/PycharmProjects/mistral_finetune_cma/multi_llm_responses.py', 'codePathLocal': 'multi_llm_responses.py', 'codePath': 'multi_llm_responses.py', 'git': {'remote': 'https://github.com/vayuvegula/mistral_finetuning_cma.git', 'commit': '5df48ed9e76f28bc308fae1a5759dd9e102d7a87'}, 'email': 'vayuvegula@gmail.com', 'root': '/Users/ravivayuvegula/PycharmProjects/mistral_finetune_cma', 'host': 'ravis-MacBook-Air.local', 'username': 'ravivayuvegula', 'executable': '/Users/ravivayuvegula/PycharmProjects/venvs/py3/bin/python3.9', 'cpu_count': 8, 'cpu_count_logical': 8, 'cpu_freq': {'current': 2400, 'min': 2400, 'max': 2400}, 'cpu_freq_per_core': [{'current': 2400, 'min': 2400, 'max': 2400}], 'disk': {'/': {'total': 228.27386474609375, 'used': 209.31349563598633}}, 'memory': {'total': 16.0}}
+2024-07-23 14:13:03,513 INFO    HandlerThread:91248 [system_monitor.py:probe():224] Finished collecting system info
+2024-07-23 14:13:03,513 INFO    HandlerThread:91248 [system_monitor.py:probe():227] Publishing system info
+2024-07-23 14:13:03,514 INFO    HandlerThread:91248 [system_monitor.py:probe():229] Finished publishing system info
+2024-07-23 14:13:03,522 DEBUG   SenderThread:91248 [sender.py:send():379] send: files
+2024-07-23 14:13:03,522 INFO    SenderThread:91248 [sender.py:_save_file():1454] saving file wandb-metadata.json with policy now
+2024-07-23 14:13:03,934 INFO    wandb-upload_0:91248 [upload_job.py:push():130] Uploaded file /var/folders/34/fkfp074s61qdsdhxjxh6jq5w0000gn/T/tmpyxb9pz33wandb/pvtd4ecv-wandb-metadata.json
+2024-07-23 14:13:03,967 DEBUG   HandlerThread:91248 [handler.py:handle_request():158] handle_request: python_packages
+2024-07-23 14:13:03,967 DEBUG   SenderThread:91248 [sender.py:send_request():406] send_request: python_packages
+2024-07-23 14:13:03,968 DEBUG   SenderThread:91248 [sender.py:send():379] send: telemetry
+2024-07-23 14:13:03,969 DEBUG   HandlerThread:91248 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-23 14:13:03,969 DEBUG   HandlerThread:91248 [handler.py:handle_request():158] handle_request: stop_status
+2024-07-23 14:13:03,969 DEBUG   SenderThread:91248 [sender.py:send_request():406] send_request: stop_status
+2024-07-23 14:13:03,994 DEBUG   HandlerThread:91248 [handler.py:handle_request():158] handle_request: partial_history
+2024-07-23 14:13:04,112 DEBUG   SenderThread:91248 [sender.py:send():379] send: history
+2024-07-23 14:13:04,112 DEBUG   SenderThread:91248 [sender.py:send_request():406] send_request: summary_record
+2024-07-23 14:13:04,113 INFO    SenderThread:91248 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-07-23 14:13:04,121 INFO    Thread-12 :91248 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/ravivayuvegula/PycharmProjects/mistral_finetune_cma/wandb/run-20240723_141302-h5ybul90/files/wandb-summary.json
+2024-07-23 14:13:04,122 INFO    Thread-12 :91248 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/ravivayuvegula/PycharmProjects/mistral_finetune_cma/wandb/run-20240723_141302-h5ybul90/files/output.log
+2024-07-23 14:13:04,122 INFO    Thread-12 :91248 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/ravivayuvegula/PycharmProjects/mistral_finetune_cma/wandb/run-20240723_141302-h5ybul90/files/requirements.txt
+2024-07-23 14:13:04,122 INFO    Thread-12 :91248 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/ravivayuvegula/PycharmProjects/mistral_finetune_cma/wandb/run-20240723_141302-h5ybul90/files/wandb-metadata.json
+2024-07-23 14:13:04,970 DEBUG   HandlerThread:91248 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-23 14:13:05,973 DEBUG   HandlerThread:91248 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-23 14:13:06,129 INFO    Thread-12 :91248 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/ravivayuvegula/PycharmProjects/mistral_finetune_cma/wandb/run-20240723_141302-h5ybul90/files/output.log
+2024-07-23 14:13:06,979 DEBUG   HandlerThread:91248 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-23 14:13:07,983 DEBUG   HandlerThread:91248 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-23 14:13:08,121 DEBUG   HandlerThread:91248 [handler.py:handle_request():158] handle_request: status_report
+2024-07-23 14:13:08,989 DEBUG   HandlerThread:91248 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-23 14:13:09,992 DEBUG   HandlerThread:91248 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-23 14:13:10,997 DEBUG   HandlerThread:91248 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-23 14:13:12,003 DEBUG   HandlerThread:91248 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-23 14:13:13,006 DEBUG   HandlerThread:91248 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-23 14:13:13,978 DEBUG   HandlerThread:91248 [handler.py:handle_request():158] handle_request: status_report
+2024-07-23 14:13:14,010 DEBUG   HandlerThread:91248 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-23 14:13:15,011 DEBUG   HandlerThread:91248 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-23 14:13:15,991 DEBUG   SenderThread:91248 [sender.py:send():379] send: exit
+2024-07-23 14:13:15,991 INFO    SenderThread:91248 [sender.py:send_exit():586] handling exit code: 0
+2024-07-23 14:13:15,991 INFO    SenderThread:91248 [sender.py:send_exit():588] handling runtime: 12
+2024-07-23 14:13:15,993 INFO    SenderThread:91248 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-07-23 14:13:15,993 INFO    SenderThread:91248 [sender.py:send_exit():594] send defer
+2024-07-23 14:13:15,993 DEBUG   HandlerThread:91248 [handler.py:handle_request():158] handle_request: defer
+2024-07-23 14:13:15,994 INFO    HandlerThread:91248 [handler.py:handle_request_defer():184] handle defer: 0
+2024-07-23 14:13:15,994 DEBUG   SenderThread:91248 [sender.py:send_request():406] send_request: defer
+2024-07-23 14:13:15,994 INFO    SenderThread:91248 [sender.py:send_request_defer():610] handle sender defer: 0
+2024-07-23 14:13:15,994 INFO    SenderThread:91248 [sender.py:transition_state():614] send defer: 1
+2024-07-23 14:13:15,995 DEBUG   HandlerThread:91248 [handler.py:handle_request():158] handle_request: defer
+2024-07-23 14:13:15,995 INFO    HandlerThread:91248 [handler.py:handle_request_defer():184] handle defer: 1
+2024-07-23 14:13:15,995 DEBUG   SenderThread:91248 [sender.py:send_request():406] send_request: defer
+2024-07-23 14:13:15,995 INFO    SenderThread:91248 [sender.py:send_request_defer():610] handle sender defer: 1
+2024-07-23 14:13:15,995 INFO    SenderThread:91248 [sender.py:transition_state():614] send defer: 2
+2024-07-23 14:13:15,995 DEBUG   HandlerThread:91248 [handler.py:handle_request():158] handle_request: defer
+2024-07-23 14:13:15,995 INFO    HandlerThread:91248 [handler.py:handle_request_defer():184] handle defer: 2
+2024-07-23 14:13:15,995 INFO    HandlerThread:91248 [system_monitor.py:finish():203] Stopping system monitor
+2024-07-23 14:13:15,995 DEBUG   SystemMonitor:91248 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-07-23 14:13:15,995 DEBUG   SystemMonitor:91248 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-07-23 14:13:15,995 DEBUG   SystemMonitor:91248 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-07-23 14:13:15,996 INFO    HandlerThread:91248 [interfaces.py:finish():200] Joined cpu monitor
+2024-07-23 14:13:15,996 INFO    HandlerThread:91248 [interfaces.py:finish():200] Joined disk monitor
+2024-07-23 14:13:15,996 INFO    HandlerThread:91248 [interfaces.py:finish():200] Joined memory monitor
+2024-07-23 14:13:15,996 INFO    HandlerThread:91248 [interfaces.py:finish():200] Joined network monitor
+2024-07-23 14:13:15,997 DEBUG   SenderThread:91248 [sender.py:send_request():406] send_request: defer
+2024-07-23 14:13:15,997 INFO    SenderThread:91248 [sender.py:send_request_defer():610] handle sender defer: 2
+2024-07-23 14:13:15,997 INFO    SenderThread:91248 [sender.py:transition_state():614] send defer: 3
+2024-07-23 14:13:15,997 DEBUG   SenderThread:91248 [sender.py:send():379] send: stats
+2024-07-23 14:13:15,997 DEBUG   HandlerThread:91248 [handler.py:handle_request():158] handle_request: defer
+2024-07-23 14:13:15,997 INFO    HandlerThread:91248 [handler.py:handle_request_defer():184] handle defer: 3
+2024-07-23 14:13:15,997 DEBUG   SenderThread:91248 [sender.py:send_request():406] send_request: defer
+2024-07-23 14:13:15,998 INFO    SenderThread:91248 [sender.py:send_request_defer():610] handle sender defer: 3
+2024-07-23 14:13:15,998 INFO    SenderThread:91248 [sender.py:transition_state():614] send defer: 4
+2024-07-23 14:13:15,998 DEBUG   HandlerThread:91248 [handler.py:handle_request():158] handle_request: defer
+2024-07-23 14:13:15,998 INFO    HandlerThread:91248 [handler.py:handle_request_defer():184] handle defer: 4
+2024-07-23 14:13:15,998 DEBUG   SenderThread:91248 [sender.py:send_request():406] send_request: defer
+2024-07-23 14:13:15,998 INFO    SenderThread:91248 [sender.py:send_request_defer():610] handle sender defer: 4
+2024-07-23 14:13:15,998 INFO    SenderThread:91248 [sender.py:transition_state():614] send defer: 5
+2024-07-23 14:13:15,998 DEBUG   HandlerThread:91248 [handler.py:handle_request():158] handle_request: defer
+2024-07-23 14:13:15,998 INFO    HandlerThread:91248 [handler.py:handle_request_defer():184] handle defer: 5
+2024-07-23 14:13:15,998 DEBUG   SenderThread:91248 [sender.py:send():379] send: summary
+2024-07-23 14:13:15,999 INFO    SenderThread:91248 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-07-23 14:13:15,999 DEBUG   SenderThread:91248 [sender.py:send_request():406] send_request: defer
+2024-07-23 14:13:15,999 INFO    SenderThread:91248 [sender.py:send_request_defer():610] handle sender defer: 5
+2024-07-23 14:13:15,999 INFO    SenderThread:91248 [sender.py:transition_state():614] send defer: 6
+2024-07-23 14:13:15,999 DEBUG   HandlerThread:91248 [handler.py:handle_request():158] handle_request: defer
+2024-07-23 14:13:15,999 INFO    HandlerThread:91248 [handler.py:handle_request_defer():184] handle defer: 6
+2024-07-23 14:13:15,999 DEBUG   SenderThread:91248 [sender.py:send_request():406] send_request: defer
+2024-07-23 14:13:15,999 INFO    SenderThread:91248 [sender.py:send_request_defer():610] handle sender defer: 6
+2024-07-23 14:13:16,003 DEBUG   HandlerThread:91248 [handler.py:handle_request():158] handle_request: status_report
+2024-07-23 14:13:16,111 INFO    SenderThread:91248 [sender.py:transition_state():614] send defer: 7
+2024-07-23 14:13:16,112 DEBUG   HandlerThread:91248 [handler.py:handle_request():158] handle_request: defer
+2024-07-23 14:13:16,112 INFO    HandlerThread:91248 [handler.py:handle_request_defer():184] handle defer: 7
+2024-07-23 14:13:16,112 DEBUG   SenderThread:91248 [sender.py:send_request():406] send_request: defer
+2024-07-23 14:13:16,112 INFO    SenderThread:91248 [sender.py:send_request_defer():610] handle sender defer: 7
+2024-07-23 14:13:16,177 INFO    Thread-12 :91248 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/ravivayuvegula/PycharmProjects/mistral_finetune_cma/wandb/run-20240723_141302-h5ybul90/files/wandb-summary.json
+2024-07-23 14:13:16,178 INFO    Thread-12 :91248 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/ravivayuvegula/PycharmProjects/mistral_finetune_cma/wandb/run-20240723_141302-h5ybul90/files/config.yaml
+2024-07-23 14:13:16,997 DEBUG   HandlerThread:91248 [handler.py:handle_request():158] handle_request: poll_exit
+2024-07-23 14:13:18,158 INFO    SenderThread:91248 [sender.py:transition_state():614] send defer: 8
+2024-07-23 14:13:18,158 DEBUG   SenderThread:91248 [sender.py:send_request():406] send_request: poll_exit
+2024-07-23 14:13:18,158 DEBUG   HandlerThread:91248 [handler.py:handle_request():158] handle_request: defer
+2024-07-23 14:13:18,159 INFO    HandlerThread:91248 [handler.py:handle_request_defer():184] handle defer: 8
+2024-07-23 14:13:18,159 DEBUG   SenderThread:91248 [sender.py:send_request():406] send_request: defer
+2024-07-23 14:13:18,159 INFO    SenderThread:91248 [sender.py:send_request_defer():610] handle sender defer: 8
+2024-07-23 14:13:18,159 INFO    SenderThread:91248 [job_builder.py:build():440] Attempting to build job artifact
+2024-07-23 14:13:18,160 INFO    SenderThread:91248 [job_builder.py:_get_source_type():569] is repo sourced job
+2024-07-23 14:13:18,186 INFO    Thread-12 :91248 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/ravivayuvegula/PycharmProjects/mistral_finetune_cma/wandb/run-20240723_141302-h5ybul90/files/output.log
+2024-07-23 14:13:18,494 INFO    SenderThread:91248 [job_builder.py:build():545] adding wandb-job metadata file
+2024-07-23 14:13:18,496 INFO    SenderThread:91248 [sender.py:transition_state():614] send defer: 9
+2024-07-23 14:13:18,497 DEBUG   SenderThread:91248 [sender.py:send():379] send: artifact
+2024-07-23 14:13:18,497 DEBUG   HandlerThread:91248 [handler.py:handle_request():158] handle_request: defer
+2024-07-23 14:13:18,498 INFO    HandlerThread:91248 [handler.py:handle_request_defer():184] handle defer: 9
+2024-07-23 14:13:18,969 INFO    SenderThread:91248 [sender.py:send_artifact():1537] sent artifact job-https___github.com_vayuvegula_mistral_finetuning_cma.git_multi_llm_responses.py - {'id': 'QXJ0aWZhY3Q6MTAyNjg4NzIwMA==', 'state': 'COMMITTED', 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjMxMzM3Mjk1MA==', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6MTAyNjg4NzIwMA==', 'versionIndex': 0}}}
+2024-07-23 14:13:18,969 DEBUG   SenderThread:91248 [sender.py:send_request():406] send_request: defer
+2024-07-23 14:13:18,970 INFO    SenderThread:91248 [sender.py:send_request_defer():610] handle sender defer: 9
+2024-07-23 14:13:18,970 INFO    SenderThread:91248 [dir_watcher.py:finish():358] shutting down directory watcher
+2024-07-23 14:13:19,004 DEBUG   HandlerThread:91248 [handler.py:handle_request():158] handle_request: poll_exit
+2024-07-23 14:13:19,192 INFO    SenderThread:91248 [dir_watcher.py:finish():388] scan: /Users/ravivayuvegula/PycharmProjects/mistral_finetune_cma/wandb/run-20240723_141302-h5ybul90/files
+2024-07-23 14:13:19,193 INFO    SenderThread:91248 [dir_watcher.py:finish():402] scan save: /Users/ravivayuvegula/PycharmProjects/mistral_finetune_cma/wandb/run-20240723_141302-h5ybul90/files/requirements.txt requirements.txt
+2024-07-23 14:13:19,194 INFO    SenderThread:91248 [dir_watcher.py:finish():402] scan save: /Users/ravivayuvegula/PycharmProjects/mistral_finetune_cma/wandb/run-20240723_141302-h5ybul90/files/output.log output.log
+2024-07-23 14:13:19,195 INFO    SenderThread:91248 [dir_watcher.py:finish():402] scan save: /Users/ravivayuvegula/PycharmProjects/mistral_finetune_cma/wandb/run-20240723_141302-h5ybul90/files/config.yaml config.yaml
+2024-07-23 14:13:19,197 INFO    SenderThread:91248 [dir_watcher.py:finish():402] scan save: /Users/ravivayuvegula/PycharmProjects/mistral_finetune_cma/wandb/run-20240723_141302-h5ybul90/files/wandb-summary.json wandb-summary.json
+2024-07-23 14:13:19,197 INFO    SenderThread:91248 [dir_watcher.py:finish():402] scan save: /Users/ravivayuvegula/PycharmProjects/mistral_finetune_cma/wandb/run-20240723_141302-h5ybul90/files/wandb-metadata.json wandb-metadata.json
+2024-07-23 14:13:19,198 INFO    SenderThread:91248 [sender.py:transition_state():614] send defer: 10
+2024-07-23 14:13:19,198 DEBUG   SenderThread:91248 [sender.py:send_request():406] send_request: poll_exit
+2024-07-23 14:13:19,199 DEBUG   HandlerThread:91248 [handler.py:handle_request():158] handle_request: defer
+2024-07-23 14:13:19,199 INFO    HandlerThread:91248 [handler.py:handle_request_defer():184] handle defer: 10
+2024-07-23 14:13:19,201 DEBUG   SenderThread:91248 [sender.py:send_request():406] send_request: defer
+2024-07-23 14:13:19,202 INFO    SenderThread:91248 [sender.py:send_request_defer():610] handle sender defer: 10
+2024-07-23 14:13:19,202 INFO    SenderThread:91248 [file_pusher.py:finish():169] shutting down file pusher
+2024-07-23 14:13:19,809 WARNING StreamThr :91248 [internal.py:is_dead():413] Internal process exiting, parent pid 91240 disappeared
+2024-07-23 14:13:19,809 ERROR   StreamThr :91248 [internal.py:wandb_internal():151] Internal process shutdown.
+2024-07-23 14:13:20,201 INFO    HandlerThread:91248 [handler.py:finish():882] shutting down handler
+2024-07-23 14:13:20,205 INFO    WriterThread:91248 [datastore.py:close():296] close: /Users/ravivayuvegula/PycharmProjects/mistral_finetune_cma/wandb/run-20240723_141302-h5ybul90/run-h5ybul90.wandb
+2024-07-23 14:13:20,207 INFO    SenderThread:91248 [sender.py:finish():1615] shutting down sender
+2024-07-23 14:13:20,207 INFO    SenderThread:91248 [file_pusher.py:finish():169] shutting down file pusher
+2024-07-23 14:13:20,207 INFO    SenderThread:91248 [file_pusher.py:join():175] waiting for file pusher
+2024-07-23 14:13:20,208 INFO    SenderThread:91248 [file_stream.py:finish():601] file stream finish called
+2024-07-23 14:13:20,446 INFO    SenderThread:91248 [file_stream.py:finish():605] file stream finish is done

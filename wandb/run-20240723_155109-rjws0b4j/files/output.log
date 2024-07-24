@@ -1,0 +1,68 @@
+Input file 'cma_files/PoorCharliesAlmanack_chptr_2.txt' read successfully. Content length: 21550 characters
+Generating questions using openai gpt-4o-mini...
+Parsed 6 question-answer pairs
+Analysis complete. 6 new question-answer pairs saved to 'output_openai_gpt-4o-mini_PoorCharliesAlmanack_chptr_2.txt_20240723_155119.jsonl'
+Input file 'cma_files/PoorCharliesAlmanack_chptr_1.txt' read successfully. Content length: 25146 characters
+Generating questions using openai gpt-4o-mini...
+Parsed 8 question-answer pairs
+Analysis complete. 8 new question-answer pairs saved to 'output_openai_gpt-4o-mini_PoorCharliesAlmanack_chptr_1.txt_20240723_155133.jsonl'
+Input file 'cma_files/PoorCharliesAlmanack_chptr_4.txt' read successfully. Content length: 1248 characters
+Generating questions using openai gpt-4o-mini...
+Parsed 5 question-answer pairs
+Analysis complete. 5 new question-answer pairs saved to 'output_openai_gpt-4o-mini_PoorCharliesAlmanack_chptr_4.txt_20240723_155141.jsonl'
+Input file 'cma_files/PoorCharliesAlmanack_chptr_3_1.txt' read successfully. Content length: 29334 characters
+Generating questions using openai gpt-4o-mini...
+Parsed 10 question-answer pairs
+Analysis complete. 10 new question-answer pairs saved to 'output_openai_gpt-4o-mini_PoorCharliesAlmanack_chptr_3_1.txt_20240723_155152.jsonl'
+Input file 'cma_files/PoorCharliesAlmanack_chptr_4_talk_8.txt' read successfully. Content length: 26420 characters
+Generating questions using openai gpt-4o-mini...
+Parsed 6 question-answer pairs
+Analysis complete. 6 new question-answer pairs saved to 'output_openai_gpt-4o-mini_PoorCharliesAlmanack_chptr_4_talk_8.txt_20240723_155201.jsonl'
+Input file 'cma_files/PoorCharliesAlmanack_chptr_4_talk_9.txt' read successfully. Content length: 69652 characters
+Generating questions using openai gpt-4o-mini...
+Parsed 7 question-answer pairs
+Analysis complete. 7 new question-answer pairs saved to 'output_openai_gpt-4o-mini_PoorCharliesAlmanack_chptr_4_talk_9.txt_20240723_155214.jsonl'
+Input file 'cma_files/PoorCharliesAlmanack_chptr_4_talk_11.txt' read successfully. Content length: 156130 characters
+Generating questions using openai gpt-4o-mini...
+Parsed 0 question-answer pairs
+No formatted data to write. Exiting.
+Input file 'cma_files/PoorCharliesAlmanack_chptr_4_talk_10.txt' read successfully. Content length: 30010 characters
+Generating questions using openai gpt-4o-mini...
+Parsed 8 question-answer pairs
+Analysis complete. 8 new question-answer pairs saved to 'output_openai_gpt-4o-mini_PoorCharliesAlmanack_chptr_4_talk_10.txt_20240723_155249.jsonl'
+Input file 'cma_files/PoorCharliesAlmanack_appendix_forewords.txt' read successfully. Content length: 72642 characters
+Generating questions using openai gpt-4o-mini...
+Parsed 5 question-answer pairs
+Analysis complete. 5 new question-answer pairs saved to 'output_openai_gpt-4o-mini_PoorCharliesAlmanack_appendix_forewords.txt_20240723_155258.jsonl'
+Input file 'cma_files/PoorCharliesAlmanack_chptr_4_talk_4.txt' read successfully. Content length: 32256 characters
+Generating questions using openai gpt-4o-mini...
+Parsed 5 question-answer pairs
+Analysis complete. 5 new question-answer pairs saved to 'output_openai_gpt-4o-mini_PoorCharliesAlmanack_chptr_4_talk_4.txt_20240723_155308.jsonl'
+Input file 'cma_files/PoorCharliesAlmanack_references.txt' read successfully. Content length: 4043 characters
+Generating questions using openai gpt-4o-mini...
+Parsed 5 question-answer pairs
+Analysis complete. 5 new question-answer pairs saved to 'output_openai_gpt-4o-mini_PoorCharliesAlmanack_references.txt_20240723_155314.jsonl'
+Input file 'cma_files/PoorCharliesAlmanack_chptr_4_talk_5.txt' read successfully. Content length: 25969 characters
+Generating questions using openai gpt-4o-mini...
+Parsed 7 question-answer pairs
+Analysis complete. 7 new question-answer pairs saved to 'output_openai_gpt-4o-mini_PoorCharliesAlmanack_chptr_4_talk_5.txt_20240723_155324.jsonl'
+Input file 'cma_files/PoorCharliesAlmanack_chptr_4_talk_7.txt' read successfully. Content length: 21591 characters
+Generating questions using openai gpt-4o-mini...
+Parsed 6 question-answer pairs
+Analysis complete. 6 new question-answer pairs saved to 'output_openai_gpt-4o-mini_PoorCharliesAlmanack_chptr_4_talk_7.txt_20240723_155333.jsonl'
+Input file 'cma_files/PoorCharliesAlmanack_chptr_4_talk_6.txt' read successfully. Content length: 18732 characters
+Generating questions using openai gpt-4o-mini...
+Parsed 7 question-answer pairs
+Analysis complete. 7 new question-answer pairs saved to 'output_openai_gpt-4o-mini_PoorCharliesAlmanack_chptr_4_talk_6.txt_20240723_155340.jsonl'
+Input file 'cma_files/PoorCharliesAlmanack_chptr_4_talk_2.txt' read successfully. Content length: 83130 characters
+Generating questions using openai gpt-4o-mini...
+Parsed 7 question-answer pairs
+Analysis complete. 7 new question-answer pairs saved to 'output_openai_gpt-4o-mini_PoorCharliesAlmanack_chptr_4_talk_2.txt_20240723_155351.jsonl'
+Input file 'cma_files/PoorCharliesAlmanack_chptr_4_talk_3.txt' read successfully. Content length: 87421 characters
+Generating questions using openai gpt-4o-mini...
+Parsed 0 question-answer pairs
+No formatted data to write. Exiting.
+Input file 'cma_files/PoorCharliesAlmanack_chptr_4_talk_1.txt' read successfully. Content length: 13849 characters
+Generating questions using openai gpt-4o-mini...
+Parsed 0 question-answer pairs
+No formatted data to write. Exiting.
