@@ -1,0 +1,45 @@
+{
+    "os": "macOS-10.16-x86_64-i386-64bit",
+    "python": "3.9.1",
+    "heartbeatAt": "2024-07-27T06:03:13.681558",
+    "startedAt": "2024-07-27T06:03:13.034365",
+    "docker": null,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "/Users/ravivayuvegula/PycharmProjects/mistral_finetune_cma/pretuning_mistral_prompt_responses.py",
+    "codePathLocal": "pretuning_mistral_prompt_responses.py",
+    "codePath": "pretuning_mistral_prompt_responses.py",
+    "git": {
+        "remote": "https://github.com/vayuvegula/mistral_finetuning_cma.git",
+        "commit": "ad5e3453be8345da8c88034b6f986ab5414a2e9d"
+    },
+    "email": "vayuvegula@gmail.com",
+    "root": "/Users/ravivayuvegula/PycharmProjects/mistral_finetune_cma",
+    "host": "ravis-MacBook-Air.local",
+    "username": "ravivayuvegula",
+    "executable": "/Users/ravivayuvegula/PycharmProjects/venvs/py3/bin/python3.9",
+    "cpu_count": 8,
+    "cpu_count_logical": 8,
+    "cpu_freq": {
+        "current": 2400,
+        "min": 2400,
+        "max": 2400
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 2400,
+            "min": 2400,
+            "max": 2400
+        }
+    ],
+    "disk": {
+        "/": {
+            "total": 228.27386474609375,
+            "used": 214.6933708190918
+        }
+    },
+    "memory": {
+        "total": 16.0
+    }
+}

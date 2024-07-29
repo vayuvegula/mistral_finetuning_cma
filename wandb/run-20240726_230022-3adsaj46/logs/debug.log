@@ -1,0 +1,28 @@
+2024-07-26 23:00:22,535 INFO    MainThread:22114 [wandb_setup.py:_flush():76] Current SDK version is 0.17.5
+2024-07-26 23:00:22,536 INFO    MainThread:22114 [wandb_setup.py:_flush():76] Configure stats pid to 22114
+2024-07-26 23:00:22,536 INFO    MainThread:22114 [wandb_setup.py:_flush():76] Loading settings from /Users/ravivayuvegula/.config/wandb/settings
+2024-07-26 23:00:22,536 INFO    MainThread:22114 [wandb_setup.py:_flush():76] Loading settings from /Users/ravivayuvegula/PycharmProjects/mistral_finetune_cma/wandb/settings
+2024-07-26 23:00:22,536 INFO    MainThread:22114 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2024-07-26 23:00:22,536 INFO    MainThread:22114 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2024-07-26 23:00:22,536 INFO    MainThread:22114 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program_relpath': 'pretuning_mistral_prompt_responses.py', 'program_abspath': '/Users/ravivayuvegula/PycharmProjects/mistral_finetune_cma/pretuning_mistral_prompt_responses.py', 'program': '/Users/ravivayuvegula/PycharmProjects/mistral_finetune_cma/pretuning_mistral_prompt_responses.py'}
+2024-07-26 23:00:22,536 INFO    MainThread:22114 [wandb_setup.py:_flush():76] Applying login settings: {}
+2024-07-26 23:00:22,536 INFO    MainThread:22114 [wandb_init.py:_log_setup():529] Logging user logs to /Users/ravivayuvegula/PycharmProjects/mistral_finetune_cma/wandb/run-20240726_230022-3adsaj46/logs/debug.log
+2024-07-26 23:00:22,536 INFO    MainThread:22114 [wandb_init.py:_log_setup():530] Logging internal logs to /Users/ravivayuvegula/PycharmProjects/mistral_finetune_cma/wandb/run-20240726_230022-3adsaj46/logs/debug-internal.log
+2024-07-26 23:00:22,537 INFO    MainThread:22114 [wandb_init.py:init():569] calling init triggers
+2024-07-26 23:00:22,537 INFO    MainThread:22114 [wandb_init.py:init():576] wandb.init called with sweep_config: {}
+config: {}
+2024-07-26 23:00:22,537 INFO    MainThread:22114 [wandb_init.py:init():619] starting backend
+2024-07-26 23:00:22,537 INFO    MainThread:22114 [wandb_init.py:init():623] setting up manager
+2024-07-26 23:00:22,540 INFO    MainThread:22114 [backend.py:_multiprocessing_setup():105] multiprocessing start_methods=spawn,fork,forkserver, using: spawn
+2024-07-26 23:00:22,542 INFO    MainThread:22114 [wandb_init.py:init():631] backend started and connected
+2024-07-26 23:00:22,549 INFO    MainThread:22114 [wandb_init.py:init():720] updated telemetry
+2024-07-26 23:00:22,605 INFO    MainThread:22114 [wandb_init.py:init():753] communicating run to backend with 90.0 second timeout
+2024-07-26 23:00:22,937 INFO    MainThread:22114 [wandb_run.py:_on_init():2435] communicating current version
+2024-07-26 23:00:23,142 INFO    MainThread:22114 [wandb_run.py:_on_init():2444] got version response 
+2024-07-26 23:00:23,143 INFO    MainThread:22114 [wandb_init.py:init():804] starting run threads in backend
+2024-07-26 23:00:23,693 INFO    MainThread:22114 [wandb_run.py:_console_start():2413] atexit reg
+2024-07-26 23:00:23,693 INFO    MainThread:22114 [wandb_run.py:_redirect():2255] redirect: wrap_raw
+2024-07-26 23:00:23,693 INFO    MainThread:22114 [wandb_run.py:_redirect():2320] Wrapping output streams.
+2024-07-26 23:00:23,694 INFO    MainThread:22114 [wandb_run.py:_redirect():2345] Redirects installed.
+2024-07-26 23:00:23,695 INFO    MainThread:22114 [wandb_init.py:init():847] run started, returning control to user process
+2024-07-26 23:00:30,021 WARNING MsgRouterThr:22114 [router.py:message_loop():77] message_loop has been closed

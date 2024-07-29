@@ -1,0 +1,179 @@
+2024-07-26 23:00:22,544 INFO    StreamThr :22158 [internal.py:wandb_internal():85] W&B internal server running at pid: 22158, started at: 2024-07-26 23:00:22.542933
+2024-07-26 23:00:22,546 DEBUG   HandlerThread:22158 [handler.py:handle_request():158] handle_request: status
+2024-07-26 23:00:22,550 INFO    WriterThread:22158 [datastore.py:open_for_write():87] open: /Users/ravivayuvegula/PycharmProjects/mistral_finetune_cma/wandb/run-20240726_230022-3adsaj46/run-3adsaj46.wandb
+2024-07-26 23:00:22,551 DEBUG   SenderThread:22158 [sender.py:send():379] send: header
+2024-07-26 23:00:22,606 DEBUG   SenderThread:22158 [sender.py:send():379] send: run
+2024-07-26 23:00:22,920 INFO    SenderThread:22158 [dir_watcher.py:__init__():211] watching files in: /Users/ravivayuvegula/PycharmProjects/mistral_finetune_cma/wandb/run-20240726_230022-3adsaj46/files
+2024-07-26 23:00:22,920 INFO    SenderThread:22158 [sender.py:_start_run_threads():1188] run started: 3adsaj46 with start time 1722060022.543017
+2024-07-26 23:00:22,937 DEBUG   HandlerThread:22158 [handler.py:handle_request():158] handle_request: check_version
+2024-07-26 23:00:22,938 DEBUG   SenderThread:22158 [sender.py:send_request():406] send_request: check_version
+2024-07-26 23:00:23,150 DEBUG   HandlerThread:22158 [handler.py:handle_request():158] handle_request: run_start
+2024-07-26 23:00:23,181 DEBUG   HandlerThread:22158 [system_info.py:__init__():26] System info init
+2024-07-26 23:00:23,181 DEBUG   HandlerThread:22158 [system_info.py:__init__():41] System info init done
+2024-07-26 23:00:23,181 INFO    HandlerThread:22158 [system_monitor.py:start():194] Starting system monitor
+2024-07-26 23:00:23,181 INFO    SystemMonitor:22158 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-07-26 23:00:23,182 INFO    HandlerThread:22158 [system_monitor.py:probe():214] Collecting system info
+2024-07-26 23:00:23,182 DEBUG   HandlerThread:22158 [system_info.py:probe():152] Probing system
+2024-07-26 23:00:23,183 INFO    SystemMonitor:22158 [interfaces.py:start():188] Started cpu monitoring
+2024-07-26 23:00:23,184 INFO    SystemMonitor:22158 [interfaces.py:start():188] Started disk monitoring
+2024-07-26 23:00:23,186 INFO    SystemMonitor:22158 [interfaces.py:start():188] Started memory monitoring
+2024-07-26 23:00:23,187 INFO    SystemMonitor:22158 [interfaces.py:start():188] Started network monitoring
+2024-07-26 23:00:23,205 DEBUG   HandlerThread:22158 [system_info.py:_probe_git():137] Probing git
+2024-07-26 23:00:23,261 DEBUG   HandlerThread:22158 [system_info.py:_probe_git():145] Probing git done
+2024-07-26 23:00:23,261 DEBUG   HandlerThread:22158 [system_info.py:probe():200] Probing system done
+2024-07-26 23:00:23,261 DEBUG   HandlerThread:22158 [system_monitor.py:probe():223] {'os': 'macOS-10.16-x86_64-i386-64bit', 'python': '3.9.1', 'heartbeatAt': '2024-07-27T06:00:23.182780', 'startedAt': '2024-07-27T06:00:22.528972', 'docker': None, 'cuda': None, 'args': (), 'state': 'running', 'program': '/Users/ravivayuvegula/PycharmProjects/mistral_finetune_cma/pretuning_mistral_prompt_responses.py', 'codePathLocal': 'pretuning_mistral_prompt_responses.py', 'codePath': 'pretuning_mistral_prompt_responses.py', 'git': {'remote': 'https://github.com/vayuvegula/mistral_finetuning_cma.git', 'commit': 'ad5e3453be8345da8c88034b6f986ab5414a2e9d'}, 'email': 'vayuvegula@gmail.com', 'root': '/Users/ravivayuvegula/PycharmProjects/mistral_finetune_cma', 'host': 'ravis-MacBook-Air.local', 'username': 'ravivayuvegula', 'executable': '/Users/ravivayuvegula/PycharmProjects/venvs/py3/bin/python3.9', 'cpu_count': 8, 'cpu_count_logical': 8, 'cpu_freq': {'current': 2400, 'min': 2400, 'max': 2400}, 'cpu_freq_per_core': [{'current': 2400, 'min': 2400, 'max': 2400}], 'disk': {'/': {'total': 228.27386474609375, 'used': 214.68536376953125}}, 'memory': {'total': 16.0}}
+2024-07-26 23:00:23,262 INFO    HandlerThread:22158 [system_monitor.py:probe():224] Finished collecting system info
+2024-07-26 23:00:23,262 INFO    HandlerThread:22158 [system_monitor.py:probe():227] Publishing system info
+2024-07-26 23:00:23,262 INFO    HandlerThread:22158 [system_monitor.py:probe():229] Finished publishing system info
+2024-07-26 23:00:23,271 DEBUG   SenderThread:22158 [sender.py:send():379] send: files
+2024-07-26 23:00:23,271 INFO    SenderThread:22158 [sender.py:_save_file():1454] saving file wandb-metadata.json with policy now
+2024-07-26 23:00:23,693 DEBUG   HandlerThread:22158 [handler.py:handle_request():158] handle_request: python_packages
+2024-07-26 23:00:23,693 DEBUG   SenderThread:22158 [sender.py:send_request():406] send_request: python_packages
+2024-07-26 23:00:23,694 DEBUG   SenderThread:22158 [sender.py:send():379] send: telemetry
+2024-07-26 23:00:23,695 DEBUG   HandlerThread:22158 [handler.py:handle_request():158] handle_request: stop_status
+2024-07-26 23:00:23,695 DEBUG   HandlerThread:22158 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-26 23:00:23,695 DEBUG   SenderThread:22158 [sender.py:send_request():406] send_request: stop_status
+2024-07-26 23:00:23,740 INFO    wandb-upload_0:22158 [upload_job.py:push():130] Uploaded file /var/folders/34/fkfp074s61qdsdhxjxh6jq5w0000gn/T/tmpe36__xfhwandb/awwks34t-wandb-metadata.json
+2024-07-26 23:00:23,851 DEBUG   SenderThread:22158 [sender.py:send():379] send: exit
+2024-07-26 23:00:23,851 INFO    SenderThread:22158 [sender.py:send_exit():586] handling exit code: 1
+2024-07-26 23:00:23,851 INFO    SenderThread:22158 [sender.py:send_exit():588] handling runtime: 0
+2024-07-26 23:00:23,851 INFO    SenderThread:22158 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-07-26 23:00:23,852 INFO    SenderThread:22158 [sender.py:send_exit():594] send defer
+2024-07-26 23:00:23,852 DEBUG   HandlerThread:22158 [handler.py:handle_request():158] handle_request: defer
+2024-07-26 23:00:23,852 INFO    HandlerThread:22158 [handler.py:handle_request_defer():184] handle defer: 0
+2024-07-26 23:00:23,852 DEBUG   SenderThread:22158 [sender.py:send_request():406] send_request: defer
+2024-07-26 23:00:23,852 INFO    SenderThread:22158 [sender.py:send_request_defer():610] handle sender defer: 0
+2024-07-26 23:00:23,852 INFO    SenderThread:22158 [sender.py:transition_state():614] send defer: 1
+2024-07-26 23:00:23,852 DEBUG   HandlerThread:22158 [handler.py:handle_request():158] handle_request: defer
+2024-07-26 23:00:23,852 INFO    HandlerThread:22158 [handler.py:handle_request_defer():184] handle defer: 1
+2024-07-26 23:00:23,853 DEBUG   SenderThread:22158 [sender.py:send_request():406] send_request: defer
+2024-07-26 23:00:23,853 INFO    SenderThread:22158 [sender.py:send_request_defer():610] handle sender defer: 1
+2024-07-26 23:00:23,853 INFO    SenderThread:22158 [sender.py:transition_state():614] send defer: 2
+2024-07-26 23:00:23,853 DEBUG   HandlerThread:22158 [handler.py:handle_request():158] handle_request: defer
+2024-07-26 23:00:23,853 INFO    HandlerThread:22158 [handler.py:handle_request_defer():184] handle defer: 2
+2024-07-26 23:00:23,853 INFO    HandlerThread:22158 [system_monitor.py:finish():203] Stopping system monitor
+2024-07-26 23:00:23,853 DEBUG   SystemMonitor:22158 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-07-26 23:00:23,854 INFO    HandlerThread:22158 [interfaces.py:finish():200] Joined cpu monitor
+2024-07-26 23:00:23,854 DEBUG   SystemMonitor:22158 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-07-26 23:00:23,854 INFO    HandlerThread:22158 [interfaces.py:finish():200] Joined disk monitor
+2024-07-26 23:00:23,854 DEBUG   SystemMonitor:22158 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-07-26 23:00:23,854 INFO    HandlerThread:22158 [interfaces.py:finish():200] Joined memory monitor
+2024-07-26 23:00:23,855 INFO    HandlerThread:22158 [interfaces.py:finish():200] Joined network monitor
+2024-07-26 23:00:23,855 DEBUG   SenderThread:22158 [sender.py:send_request():406] send_request: defer
+2024-07-26 23:00:23,855 INFO    SenderThread:22158 [sender.py:send_request_defer():610] handle sender defer: 2
+2024-07-26 23:00:23,855 INFO    SenderThread:22158 [sender.py:transition_state():614] send defer: 3
+2024-07-26 23:00:23,855 DEBUG   SenderThread:22158 [sender.py:send():379] send: stats
+2024-07-26 23:00:23,856 DEBUG   HandlerThread:22158 [handler.py:handle_request():158] handle_request: defer
+2024-07-26 23:00:23,856 INFO    HandlerThread:22158 [handler.py:handle_request_defer():184] handle defer: 3
+2024-07-26 23:00:23,856 DEBUG   SenderThread:22158 [sender.py:send_request():406] send_request: defer
+2024-07-26 23:00:23,856 INFO    SenderThread:22158 [sender.py:send_request_defer():610] handle sender defer: 3
+2024-07-26 23:00:23,856 INFO    SenderThread:22158 [sender.py:transition_state():614] send defer: 4
+2024-07-26 23:00:23,856 DEBUG   HandlerThread:22158 [handler.py:handle_request():158] handle_request: defer
+2024-07-26 23:00:23,856 INFO    HandlerThread:22158 [handler.py:handle_request_defer():184] handle defer: 4
+2024-07-26 23:00:23,857 DEBUG   SenderThread:22158 [sender.py:send_request():406] send_request: defer
+2024-07-26 23:00:23,857 INFO    SenderThread:22158 [sender.py:send_request_defer():610] handle sender defer: 4
+2024-07-26 23:00:23,857 INFO    SenderThread:22158 [sender.py:transition_state():614] send defer: 5
+2024-07-26 23:00:23,857 DEBUG   HandlerThread:22158 [handler.py:handle_request():158] handle_request: defer
+2024-07-26 23:00:23,857 INFO    HandlerThread:22158 [handler.py:handle_request_defer():184] handle defer: 5
+2024-07-26 23:00:23,857 DEBUG   SenderThread:22158 [sender.py:send():379] send: summary
+2024-07-26 23:00:23,858 INFO    SenderThread:22158 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-07-26 23:00:23,858 DEBUG   SenderThread:22158 [sender.py:send_request():406] send_request: defer
+2024-07-26 23:00:23,858 INFO    SenderThread:22158 [sender.py:send_request_defer():610] handle sender defer: 5
+2024-07-26 23:00:23,858 INFO    SenderThread:22158 [sender.py:transition_state():614] send defer: 6
+2024-07-26 23:00:23,858 DEBUG   HandlerThread:22158 [handler.py:handle_request():158] handle_request: defer
+2024-07-26 23:00:23,858 INFO    HandlerThread:22158 [handler.py:handle_request_defer():184] handle defer: 6
+2024-07-26 23:00:23,858 DEBUG   SenderThread:22158 [sender.py:send_request():406] send_request: defer
+2024-07-26 23:00:23,858 INFO    SenderThread:22158 [sender.py:send_request_defer():610] handle sender defer: 6
+2024-07-26 23:00:23,863 DEBUG   HandlerThread:22158 [handler.py:handle_request():158] handle_request: status_report
+2024-07-26 23:00:23,925 INFO    Thread-12 :22158 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/ravivayuvegula/PycharmProjects/mistral_finetune_cma/wandb/run-20240726_230022-3adsaj46/files/output.log
+2024-07-26 23:00:23,925 INFO    Thread-12 :22158 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/ravivayuvegula/PycharmProjects/mistral_finetune_cma/wandb/run-20240726_230022-3adsaj46/files/requirements.txt
+2024-07-26 23:00:23,925 INFO    Thread-12 :22158 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/ravivayuvegula/PycharmProjects/mistral_finetune_cma/wandb/run-20240726_230022-3adsaj46/files/wandb-summary.json
+2024-07-26 23:00:23,925 INFO    Thread-12 :22158 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/ravivayuvegula/PycharmProjects/mistral_finetune_cma/wandb/run-20240726_230022-3adsaj46/files/wandb-metadata.json
+2024-07-26 23:00:24,103 INFO    SenderThread:22158 [sender.py:transition_state():614] send defer: 7
+2024-07-26 23:00:24,103 DEBUG   HandlerThread:22158 [handler.py:handle_request():158] handle_request: defer
+2024-07-26 23:00:24,103 INFO    HandlerThread:22158 [handler.py:handle_request_defer():184] handle defer: 7
+2024-07-26 23:00:24,104 DEBUG   SenderThread:22158 [sender.py:send_request():406] send_request: defer
+2024-07-26 23:00:24,104 INFO    SenderThread:22158 [sender.py:send_request_defer():610] handle sender defer: 7
+2024-07-26 23:00:24,857 DEBUG   HandlerThread:22158 [handler.py:handle_request():158] handle_request: poll_exit
+2024-07-26 23:00:24,924 INFO    Thread-12 :22158 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/ravivayuvegula/PycharmProjects/mistral_finetune_cma/wandb/run-20240726_230022-3adsaj46/files/config.yaml
+2024-07-26 23:00:25,871 INFO    SenderThread:22158 [sender.py:transition_state():614] send defer: 8
+2024-07-26 23:00:25,871 DEBUG   SenderThread:22158 [sender.py:send_request():406] send_request: poll_exit
+2024-07-26 23:00:25,872 DEBUG   HandlerThread:22158 [handler.py:handle_request():158] handle_request: defer
+2024-07-26 23:00:25,872 INFO    HandlerThread:22158 [handler.py:handle_request_defer():184] handle defer: 8
+2024-07-26 23:00:25,873 DEBUG   SenderThread:22158 [sender.py:send_request():406] send_request: defer
+2024-07-26 23:00:25,873 INFO    SenderThread:22158 [sender.py:send_request_defer():610] handle sender defer: 8
+2024-07-26 23:00:25,873 INFO    SenderThread:22158 [job_builder.py:build():440] Attempting to build job artifact
+2024-07-26 23:00:25,874 INFO    SenderThread:22158 [job_builder.py:_get_source_type():569] is repo sourced job
+2024-07-26 23:00:25,928 INFO    Thread-12 :22158 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/ravivayuvegula/PycharmProjects/mistral_finetune_cma/wandb/run-20240726_230022-3adsaj46/files/output.log
+2024-07-26 23:00:26,133 INFO    SenderThread:22158 [job_builder.py:build():545] adding wandb-job metadata file
+2024-07-26 23:00:26,135 INFO    SenderThread:22158 [sender.py:transition_state():614] send defer: 9
+2024-07-26 23:00:26,135 DEBUG   HandlerThread:22158 [handler.py:handle_request():158] handle_request: defer
+2024-07-26 23:00:26,135 INFO    HandlerThread:22158 [handler.py:handle_request_defer():184] handle defer: 9
+2024-07-26 23:00:26,135 DEBUG   SenderThread:22158 [sender.py:send():379] send: artifact
+2024-07-26 23:00:26,761 INFO    wandb-upload_1:22158 [upload_job.py:push():85] Skipped uploading /Users/ravivayuvegula/Library/Application Support/wandb/artifacts/staging/tmpj_va0ilv
+2024-07-26 23:00:26,877 DEBUG   HandlerThread:22158 [handler.py:handle_request():158] handle_request: poll_exit
+2024-07-26 23:00:26,892 INFO    wandb-upload_0:22158 [upload_job.py:push():88] Uploaded file /var/folders/34/fkfp074s61qdsdhxjxh6jq5w0000gn/T/tmp5i9gfleu/wandb-job.json
+2024-07-26 23:00:27,841 INFO    SenderThread:22158 [sender.py:send_artifact():1537] sent artifact job-https___github.com_vayuvegula_mistral_finetuning_cma.git_pretuning_mistral_prompt_responses.py - {'id': 'QXJ0aWZhY3Q6MTA0NDIxMTUzOA==', 'state': 'PENDING', 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjMyNzU3OTM2OA==', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6MTA0NDAwMDM2NA==', 'versionIndex': 0}}}
+2024-07-26 23:00:27,842 DEBUG   SenderThread:22158 [sender.py:send_request():406] send_request: defer
+2024-07-26 23:00:27,842 INFO    SenderThread:22158 [sender.py:send_request_defer():610] handle sender defer: 9
+2024-07-26 23:00:27,843 INFO    SenderThread:22158 [dir_watcher.py:finish():358] shutting down directory watcher
+2024-07-26 23:00:27,939 INFO    SenderThread:22158 [dir_watcher.py:finish():388] scan: /Users/ravivayuvegula/PycharmProjects/mistral_finetune_cma/wandb/run-20240726_230022-3adsaj46/files
+2024-07-26 23:00:27,940 INFO    SenderThread:22158 [dir_watcher.py:finish():402] scan save: /Users/ravivayuvegula/PycharmProjects/mistral_finetune_cma/wandb/run-20240726_230022-3adsaj46/files/requirements.txt requirements.txt
+2024-07-26 23:00:27,940 INFO    SenderThread:22158 [dir_watcher.py:finish():402] scan save: /Users/ravivayuvegula/PycharmProjects/mistral_finetune_cma/wandb/run-20240726_230022-3adsaj46/files/output.log output.log
+2024-07-26 23:00:27,941 INFO    SenderThread:22158 [dir_watcher.py:finish():402] scan save: /Users/ravivayuvegula/PycharmProjects/mistral_finetune_cma/wandb/run-20240726_230022-3adsaj46/files/config.yaml config.yaml
+2024-07-26 23:00:27,949 INFO    SenderThread:22158 [dir_watcher.py:finish():402] scan save: /Users/ravivayuvegula/PycharmProjects/mistral_finetune_cma/wandb/run-20240726_230022-3adsaj46/files/wandb-summary.json wandb-summary.json
+2024-07-26 23:00:27,951 INFO    SenderThread:22158 [dir_watcher.py:finish():402] scan save: /Users/ravivayuvegula/PycharmProjects/mistral_finetune_cma/wandb/run-20240726_230022-3adsaj46/files/wandb-metadata.json wandb-metadata.json
+2024-07-26 23:00:27,955 INFO    SenderThread:22158 [sender.py:transition_state():614] send defer: 10
+2024-07-26 23:00:27,959 DEBUG   SenderThread:22158 [sender.py:send_request():406] send_request: poll_exit
+2024-07-26 23:00:27,959 DEBUG   HandlerThread:22158 [handler.py:handle_request():158] handle_request: defer
+2024-07-26 23:00:27,960 INFO    HandlerThread:22158 [handler.py:handle_request_defer():184] handle defer: 10
+2024-07-26 23:00:27,961 DEBUG   SenderThread:22158 [sender.py:send_request():406] send_request: defer
+2024-07-26 23:00:27,962 INFO    SenderThread:22158 [sender.py:send_request_defer():610] handle sender defer: 10
+2024-07-26 23:00:27,962 INFO    SenderThread:22158 [file_pusher.py:finish():169] shutting down file pusher
+2024-07-26 23:00:28,209 INFO    wandb-upload_1:22158 [upload_job.py:push():130] Uploaded file /Users/ravivayuvegula/PycharmProjects/mistral_finetune_cma/wandb/run-20240726_230022-3adsaj46/files/requirements.txt
+2024-07-26 23:00:28,379 INFO    wandb-upload_3:22158 [upload_job.py:push():130] Uploaded file /Users/ravivayuvegula/PycharmProjects/mistral_finetune_cma/wandb/run-20240726_230022-3adsaj46/files/wandb-summary.json
+2024-07-26 23:00:28,380 INFO    wandb-upload_2:22158 [upload_job.py:push():130] Uploaded file /Users/ravivayuvegula/PycharmProjects/mistral_finetune_cma/wandb/run-20240726_230022-3adsaj46/files/config.yaml
+2024-07-26 23:00:28,380 INFO    wandb-upload_0:22158 [upload_job.py:push():130] Uploaded file /Users/ravivayuvegula/PycharmProjects/mistral_finetune_cma/wandb/run-20240726_230022-3adsaj46/files/output.log
+2024-07-26 23:00:28,583 INFO    Thread-11 :22158 [sender.py:transition_state():614] send defer: 11
+2024-07-26 23:00:28,584 DEBUG   HandlerThread:22158 [handler.py:handle_request():158] handle_request: defer
+2024-07-26 23:00:28,584 INFO    HandlerThread:22158 [handler.py:handle_request_defer():184] handle defer: 11
+2024-07-26 23:00:28,585 DEBUG   SenderThread:22158 [sender.py:send_request():406] send_request: defer
+2024-07-26 23:00:28,586 INFO    SenderThread:22158 [sender.py:send_request_defer():610] handle sender defer: 11
+2024-07-26 23:00:28,586 INFO    SenderThread:22158 [file_pusher.py:join():175] waiting for file pusher
+2024-07-26 23:00:28,587 INFO    SenderThread:22158 [sender.py:transition_state():614] send defer: 12
+2024-07-26 23:00:28,587 DEBUG   HandlerThread:22158 [handler.py:handle_request():158] handle_request: defer
+2024-07-26 23:00:28,587 INFO    HandlerThread:22158 [handler.py:handle_request_defer():184] handle defer: 12
+2024-07-26 23:00:28,588 DEBUG   SenderThread:22158 [sender.py:send_request():406] send_request: defer
+2024-07-26 23:00:28,588 INFO    SenderThread:22158 [sender.py:send_request_defer():610] handle sender defer: 12
+2024-07-26 23:00:28,588 INFO    SenderThread:22158 [file_stream.py:finish():601] file stream finish called
+2024-07-26 23:00:28,679 INFO    SenderThread:22158 [file_stream.py:finish():605] file stream finish is done
+2024-07-26 23:00:28,680 INFO    SenderThread:22158 [sender.py:transition_state():614] send defer: 13
+2024-07-26 23:00:28,681 DEBUG   HandlerThread:22158 [handler.py:handle_request():158] handle_request: defer
+2024-07-26 23:00:28,681 INFO    HandlerThread:22158 [handler.py:handle_request_defer():184] handle defer: 13
+2024-07-26 23:00:28,681 DEBUG   SenderThread:22158 [sender.py:send_request():406] send_request: defer
+2024-07-26 23:00:28,682 INFO    SenderThread:22158 [sender.py:send_request_defer():610] handle sender defer: 13
+2024-07-26 23:00:28,682 INFO    SenderThread:22158 [sender.py:transition_state():614] send defer: 14
+2024-07-26 23:00:28,682 DEBUG   HandlerThread:22158 [handler.py:handle_request():158] handle_request: defer
+2024-07-26 23:00:28,683 INFO    HandlerThread:22158 [handler.py:handle_request_defer():184] handle defer: 14
+2024-07-26 23:00:28,683 DEBUG   SenderThread:22158 [sender.py:send():379] send: final
+2024-07-26 23:00:28,683 DEBUG   SenderThread:22158 [sender.py:send():379] send: footer
+2024-07-26 23:00:28,684 DEBUG   SenderThread:22158 [sender.py:send_request():406] send_request: defer
+2024-07-26 23:00:28,684 INFO    SenderThread:22158 [sender.py:send_request_defer():610] handle sender defer: 14
+2024-07-26 23:00:28,685 DEBUG   HandlerThread:22158 [handler.py:handle_request():158] handle_request: poll_exit
+2024-07-26 23:00:28,686 DEBUG   SenderThread:22158 [sender.py:send_request():406] send_request: poll_exit
+2024-07-26 23:00:28,687 DEBUG   HandlerThread:22158 [handler.py:handle_request():158] handle_request: server_info
+2024-07-26 23:00:28,687 DEBUG   SenderThread:22158 [sender.py:send_request():406] send_request: server_info
+2024-07-26 23:00:28,691 DEBUG   HandlerThread:22158 [handler.py:handle_request():158] handle_request: poll_exit
+2024-07-26 23:00:28,693 DEBUG   HandlerThread:22158 [handler.py:handle_request():158] handle_request: get_summary
+2024-07-26 23:00:28,694 DEBUG   HandlerThread:22158 [handler.py:handle_request():158] handle_request: sampled_history
+2024-07-26 23:00:28,694 DEBUG   HandlerThread:22158 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-26 23:00:28,770 DEBUG   SenderThread:22158 [sender.py:send_request():406] send_request: poll_exit
+2024-07-26 23:00:28,771 INFO    MainThread:22158 [wandb_run.py:_footer_history_summary_info():4016] rendering history
+2024-07-26 23:00:28,772 INFO    MainThread:22158 [wandb_run.py:_footer_history_summary_info():4048] rendering summary
+2024-07-26 23:00:28,772 INFO    MainThread:22158 [wandb_run.py:_footer_sync_info():3975] logging synced files
+2024-07-26 23:00:28,775 DEBUG   HandlerThread:22158 [handler.py:handle_request():158] handle_request: shutdown
+2024-07-26 23:00:28,775 INFO    HandlerThread:22158 [handler.py:finish():882] shutting down handler
+2024-07-26 23:00:29,696 INFO    WriterThread:22158 [datastore.py:close():296] close: /Users/ravivayuvegula/PycharmProjects/mistral_finetune_cma/wandb/run-20240726_230022-3adsaj46/run-3adsaj46.wandb
+2024-07-26 23:00:29,772 INFO    SenderThread:22158 [sender.py:finish():1615] shutting down sender
+2024-07-26 23:00:29,773 INFO    SenderThread:22158 [file_pusher.py:finish():169] shutting down file pusher
+2024-07-26 23:00:29,773 INFO    SenderThread:22158 [file_pusher.py:join():175] waiting for file pusher

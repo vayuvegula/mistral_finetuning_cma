@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "/Users/ravivayuvegula/PycharmProjects/mistral_finetune_cma/pretuning_mistral_prompt_responses.py", line 100, in <module>
+    weave.init(project="mistral_experiments_pretuning")
+TypeError: init() got an unexpected keyword argument 'project'
+Traceback (most recent call last):
+  File "/Users/ravivayuvegula/PycharmProjects/mistral_finetune_cma/pretuning_mistral_prompt_responses.py", line 100, in <module>
+    weave.init(project="mistral_experiments_pretuning")
+TypeError: init() got an unexpected keyword argument 'project'

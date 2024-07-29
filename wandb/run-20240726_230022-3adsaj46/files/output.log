@@ -1,0 +1,20 @@
+Traceback (most recent call last):
+  File "/Users/ravivayuvegula/PycharmProjects/mistral_finetune_cma/pretuning_mistral_prompt_responses.py", line 100, in <module>
+    weave.init('mistral_example')
+  File "/Users/ravivayuvegula/PycharmProjects/venvs/py3/lib/python3.9/site-packages/weave/api.py", line 160, in init
+    return _weave_init.init_weave(project_name).client
+  File "/Users/ravivayuvegula/PycharmProjects/venvs/py3/lib/python3.9/site-packages/weave/weave_init.py", line 95, in init_weave
+    weave_client.check_wandb_run_matches(wandb_run_id, entity_name, project_name)
+  File "/Users/ravivayuvegula/PycharmProjects/venvs/py3/lib/python3.9/site-packages/weave/weave_client.py", line 907, in check_wandb_run_matches
+    raise ValueError(
+ValueError: Project Mismatch: weave and wandb must be initialized using the same project. Found wandb.init targeting project "vayuvegula/mistral_experiments_pretuning" and weave.init targeting project "vayuvegula/mistral_example". To fix, please use the same project for both library initializations.
+Traceback (most recent call last):
+  File "/Users/ravivayuvegula/PycharmProjects/mistral_finetune_cma/pretuning_mistral_prompt_responses.py", line 100, in <module>
+    weave.init('mistral_example')
+  File "/Users/ravivayuvegula/PycharmProjects/venvs/py3/lib/python3.9/site-packages/weave/api.py", line 160, in init
+    return _weave_init.init_weave(project_name).client
+  File "/Users/ravivayuvegula/PycharmProjects/venvs/py3/lib/python3.9/site-packages/weave/weave_init.py", line 95, in init_weave
+    weave_client.check_wandb_run_matches(wandb_run_id, entity_name, project_name)
+  File "/Users/ravivayuvegula/PycharmProjects/venvs/py3/lib/python3.9/site-packages/weave/weave_client.py", line 907, in check_wandb_run_matches
+    raise ValueError(
+ValueError: Project Mismatch: weave and wandb must be initialized using the same project. Found wandb.init targeting project "vayuvegula/mistral_experiments_pretuning" and weave.init targeting project "vayuvegula/mistral_example". To fix, please use the same project for both library initializations.
