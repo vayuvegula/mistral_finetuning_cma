@@ -20,7 +20,10 @@ anthropic_client = anthropic.Anthropic(api_key=os.getenv("ANTHROPIC_API_KEY"))
 client_openai = OpenAI()
 client_openai.api_key = os.getenv("OPENAI_API_KEY")
 mistral_client = MistralClient(api_key=os.getenv("MISTRAL_API_KEY"))
-
+client_openai_nvidia = OpenAI(
+    base_url="https://integrate.api.nvidia.com/v1",
+    api_key="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"
+)
 
 def read_file(file_path: str) -> str:
     try:
@@ -83,6 +86,18 @@ def generate_questions(text: str, provider: str, model: str) -> tuple:
             )
             tokens_used = response.usage.total_tokens
             return response.choices[0].message.content, tokens_used
+
+        elif provider == "openai_nvidia":
+            response = client_openai_nvidia.chat.completions.create(
+                model="meta/llama-3.1-405b-instruct",
+                messages=[
+                    {"role": "system",
+                     "content": "Follow the rules strictly and apply them to the prompt"
+                                "the content is in JSON format, convert all list elements"
+                                "to a JSONL format where each line {'messages': [{'role': 'user', 'content': 'Example text'}, {'role': 'assistant', 'content': 'Example text'}]}"},
+                    {"role": "user", "content": prompt}]
+            )
+            return response.choices[0].message.content
 
         elif provider == "mistral":
             messages = [
@@ -234,7 +249,7 @@ def main(directory: str, provider: str = "anthropic", model: str = "claude-3-son
 
 if __name__ == "__main__":
     main(
-        directory="cma_files",
-        provider="openai",  # or "openai", "mistral", or "anthropic"
-        model="gpt-4o-mini"  # or "gpt-3.5-turbo" for OpenAI, "mistral-large-latest" for Mistral, or "claude-3-sonnet-20240229"
+        directory="testing",
+        provider="openai_nvidia",  # or "openai", "mistral", or "anthropic"
+        model="meta/llama-3.1-405b-instruct"  # or "gpt-3.5-turbo" for OpenAI, "mistral-large-latest" for Mistral, or "claude-3-sonnet-20240229"
     )

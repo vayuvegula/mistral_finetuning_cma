@@ -1,96 +1,65 @@
-# import os
-# import json
-# from dotenv import load_dotenv
-# import anthropic
-# from openai import OpenAI
-# from mistralai.client import MistralClient
-# from mistralai.models.chat_completion import ChatMessage
-# # Load environment variables
-# load_dotenv(dotenv_path=os.path.expanduser('~/shared_env/.env'))
-# # Setup clients
-# anthropic_client = anthropic.Anthropic(api_key=os.getenv("ANTHROPIC_API_KEY"))
-# client_openai = OpenAI()
-# client_openai.api_key = os.getenv("OPENAI_API_KEY")
-# mistral_client = MistralClient(api_key=os.getenv("MISTRAL_API_KEY"))
-#
-#
-# # #anthropic
-# # message = anthropic_client.messages.create(
-# #     model="claude-3-5-sonnet-20240620",
-# #     max_tokens=1024,
-# #     messages=[
-# #         {"role": "user", "content": "Hello, Claude"}
-# #     ]
-# # )
-# # print(message)
-# # print(message.content)
-#
-# model = 'gpt-4o-mini'
-# response = client_openai.chat.completions.create(
-#     model=model,
-#     messages=[
-#         {"role": "system",
-#          "content": "You are a seasoned Journalist like Becky Quick."
-#                     "Generate insightful questions and answers based on the provided text."},
-#         {"role": "user", "content": "how is the weather in seattle?"}
-#     ]
-# )
-# print(response)
-# tokens_used = response.usage.total_tokens
-# print(response.choices[0].message.content)
-# print(tokens_used)
-import torch
-import torch.nn as nn
-from collections import OrderedDict
+import jsonlines
+import json
+import os
+import re
 
-# Define the model
-class SimpleNet(nn.Module):
-    def __init__(self):
-        super(SimpleNet, self).__init__()
-        self.fc1 = nn.Linear(784, 128)
-        self.fc2 = nn.Linear(128, 10)
 
-    def forward(self, x):
-        x = torch.relu(self.fc1(x))
-        x = self.fc2(x)
-        return x
+def clean_json_string(s):
+    # Remove "messages": [ if present at the start
+    s = re.sub(r'^"messages":\s*\[', '', s).strip()
 
-# Sets the parameters of the model
-def set_weights(net, parameters):
-    params_dict = zip(net.state_dict().keys(), parameters)
-    state_dict = OrderedDict(
-        {k: torch.tensor(v) for k, v in params_dict}
-    )
-    net.load_state_dict(state_dict, strict=True)
+    # Replace incorrect double quotes with single quotes
+    s = s.replace('"s', "'s").replace('."', ".'")
 
-# Retrieves the parameters from the model
-def get_weights(net):
-    ndarrays = [
-        val.cpu().numpy() for _, val in net.state_dict().items()
-    ]
-    return ndarrays
+    # Ensure proper JSON formatting by replacing remaining single quotes with double quotes
+    s = s.replace("'", '"')
 
-# Instantiate the model
-net = SimpleNet()
+    # Fix "role": "assistant": pattern
+    s = re.sub(r'"assistant"\s*:', '"assistant", "content":', s)
 
-# Get initial weights
-initial_weights = get_weights(net)
-print("Initial Weights:")
-for i, w in enumerate(initial_weights):
-    print(f"Weight {i}: {w.shape}")
+    # Remove any trailing commas
+    s = re.sub(r',\s*}$', '}', s)
 
-# Create dummy new weights (random values with the same shape as initial weights)
-new_weights = [torch.rand_like(torch.tensor(w)).numpy() for w in initial_weights]
+    return s
 
-print("\nNew Weights:")
-for i, w in enumerate(new_weights):
-    print(f"New Weight {i}: {w.shape}")
 
-# Set the new weights to the model
-set_weights(net, new_weights)
+def process_file(input_path, output_path):
+    with open(input_path, 'r', encoding='utf-8') as infile, \
+            jsonlines.open(output_path, mode='w') as writer:
+        content = infile.read()
 
-# Verify the weights have been updated
-updated_weights = get_weights(net)
-print("\nUpdated Weights:")
-for i, w in enumerate(updated_weights):
-    print(f"Updated Weight {i}: {w.shape}")
+        # Extract the main JSON array
+        match = re.search(r'\[(.+)\]', content, re.DOTALL)
+        if match:
+            json_array = match.group(1)
+
+            # Split the array into individual JSON objects
+            json_objects = re.findall(r'{.+?}(?=\s*,\s*{|\s*$)', json_array, re.DOTALL)
+
+            for obj in json_objects:
+                cleaned_obj = clean_json_string(obj)
+                try:
+                    parsed_obj = json.loads(cleaned_obj)
+                    writer.write(parsed_obj)
+                except json.JSONDecodeError as e:
+                    print(f"Failed to parse entry: {cleaned_obj[:50]}... Error: {e}")
+
+
+def main():
+    input_directory = 'testing'
+    output_directory = 'testing/output'
+
+    os.makedirs(output_directory, exist_ok=True)
+
+    for filename in os.listdir(input_directory):
+        if filename.endswith('.txt') or filename.endswith('.json'):
+            input_path = os.path.join(input_directory, filename)
+            output_path = os.path.join(output_directory, f"{os.path.splitext(filename)[0]}.jsonl")
+
+            print(f"Processing file: {input_path}")
+            process_file(input_path, output_path)
+            print(f"Finished processing: {input_path}")
+
+
+if __name__ == "__main__":
+    main()

@@ -1,0 +1,18 @@
+Input file 'testing/output_Gemini_PoorCharliesAlmanack_chptr_1.txt_20240726_110000.txt' read successfully. Content length: 13883 characters
+Generating questions using openai_nvidia meta/llama-3.1-405b-instruct...
+Traceback (most recent call last):
+  File "/Users/ravivayuvegula/PycharmProjects/mistral_finetune_cma/multi_llm_responses.py", line 251, in <module>
+    main(
+  File "/Users/ravivayuvegula/PycharmProjects/mistral_finetune_cma/multi_llm_responses.py", line 247, in main
+    process_file(file_path, provider, model)
+  File "/Users/ravivayuvegula/PycharmProjects/mistral_finetune_cma/multi_llm_responses.py", line 195, in process_file
+    response_text, tokens_used = generate_questions(input_text, provider, model)
+ValueError: too many values to unpack (expected 2)
+Traceback (most recent call last):
+  File "/Users/ravivayuvegula/PycharmProjects/mistral_finetune_cma/multi_llm_responses.py", line 251, in <module>
+    main(
+  File "/Users/ravivayuvegula/PycharmProjects/mistral_finetune_cma/multi_llm_responses.py", line 247, in main
+    process_file(file_path, provider, model)
+  File "/Users/ravivayuvegula/PycharmProjects/mistral_finetune_cma/multi_llm_responses.py", line 195, in process_file
+    response_text, tokens_used = generate_questions(input_text, provider, model)
+ValueError: too many values to unpack (expected 2)
